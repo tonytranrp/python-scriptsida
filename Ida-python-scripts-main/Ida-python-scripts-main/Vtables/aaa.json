@@ -1,0 +1,19 @@
+{
+    "Name": {
+        "Symbol": "??_7?$_Func_impl_no_alloc@V_lambda_253e83e30fcd74ee53215ced84b733b8_@@XAEBVCompoundTag@@AEAV2@@std@@6B@",
+        "Demangled": "const std::_Func_impl_no_alloc<class _lambda_253e83e30fcd74ee53215ced84b733b8_, void, class CompoundTag const &, class CompoundTag &>::`vftable'"
+    },
+    "Size": 48,
+    "Info": {
+        "HexSize": "0x30",
+        "Functions": 6
+    },
+    "Functions": {
+        "0": "?_Copy@?$_Func_impl_no_alloc@V_lambda_253e83e30fcd74ee53215ced84b733b8_@@XAEBVCompoundTag@@AEAV2@@std@@EEBAPEAV?$_Func_base@XAEBVCompoundTag@@AEAV1@@2@PEAX@Z",
+        "1": "?_Move@?$_Func_impl_no_alloc@V_lambda_253e83e30fcd74ee53215ced84b733b8_@@XAEBVCompoundTag@@AEAV2@@std@@EEAAPEAV?$_Func_base@XAEBVCompoundTag@@AEAV1@@2@PEAX@Z",
+        "2": "?_Do_call@?$_Func_impl_no_alloc@V_lambda_253e83e30fcd74ee53215ced84b733b8_@@XAEBVCompoundTag@@AEAV2@@std@@EEAAXAEBVCompoundTag@@AEAV3@@Z",
+        "3": "?_Target_type@?$_Func_impl_no_alloc@V_lambda_253e83e30fcd74ee53215ced84b733b8_@@XAEBVCompoundTag@@AEAV2@@std@@EEBAAEBVtype_info@@XZ",
+        "4": "?_Delete_this@?$_Func_impl_no_alloc@V_lambda_7e20a31ba0b7591ca634d69d74974ad3_@@XAEAVCompoundTag@@AEAVEntityContext@@AEAVIWorldRegistriesProvider@@@std@@EEAAX_N@Z",
+        "5": "?_Get@?$_Func_impl_no_alloc@V_lambda_caeb91bac869510bb219df818b74396f_@@XAEAV?$JsonParseState@V?$JsonParseState@V?$JsonParseState@VEmptyClass@JsonUtil@@VDamageSensorDefinition@@@JsonUtil@@UDamageSensorTrigger@@@JsonUtil@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@JsonUtil@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@EEBAPEBXXZ"
+    }
+}
