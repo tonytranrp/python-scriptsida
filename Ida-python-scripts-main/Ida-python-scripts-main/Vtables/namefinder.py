@@ -11,9 +11,9 @@ with open(input_path, "r") as file:
     data = json.load(file)
 
 for entry in data:
-    second_address = int(entry["second_addres"], 16)
+    second_address = int(entry["second_address"], 16)
     name = idc.get_name(second_address)
-    entry["second_name"] = name if name else f"Unknown_{entry['second_addres']}"
+    entry["second_name"] = name if name else f"Unknown_{entry['second_address']}"
 
 with open(output_path, "w") as outfile:
     json.dump(data, outfile, indent=4)
