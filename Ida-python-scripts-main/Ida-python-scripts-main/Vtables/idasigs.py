@@ -1,7 +1,7 @@
 import idaapi
 import ida_bytes
 import idc
-
+import idautils as utils
 def get_function_bounds(ea):
     # Get the start and end addresses of the function containing the given address
     func = idaapi.get_func(ea)
@@ -16,7 +16,7 @@ def get_unique_signature(start, end):
     addr = start
     while addr < end:
         # Disassemble the current instruction
-        insn = idautils.DecodeInstruction(addr)
+        insn = utils.DecodeInstruction(addr)
         if insn:
             # Get the bytes of the instruction
             insn_bytes = ida_bytes.get_bytes(addr, insn.size)
@@ -33,7 +33,7 @@ def get_unique_signature(start, end):
 
 def main():
     # Specify the address for which you want to generate the signature
-    address = 0x00000001419243B0
+    address = 0x00000001417D2AD0
 
     # Get the bounds of the function containing the specified address
     start, end = get_function_bounds(address)
