@@ -1,0 +1,2392 @@
+[
+    {
+        "Name": "IN6_ADDR",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "u",
+                "Size": 16
+            }
+        ]
+    },
+    {
+        "Name": "in6_addr::$6F0816B860EA11CA8E788AEE35731DB2",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "Byte",
+                "Size": 16
+            },
+            {
+                "Offset": 1,
+                "Name": "Word",
+                "Size": 16
+            }
+        ]
+    },
+    {
+        "Name": "GUID",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "Data1",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "Data2",
+                "Size": 2
+            },
+            {
+                "Offset": 6,
+                "Name": "Data3",
+                "Size": 2
+            },
+            {
+                "Offset": 8,
+                "Name": "Data4",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "RUNTIME_FUNCTION",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "FunctionStart",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "FunctionEnd",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "UnwindInfo",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "UNWIND_INFO_HDR",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "Ver3_Flags",
+                "Size": 1
+            },
+            {
+                "Offset": 1,
+                "Name": "PrologSize",
+                "Size": 1
+            },
+            {
+                "Offset": 2,
+                "Name": "CntUnwindCodes",
+                "Size": 1
+            },
+            {
+                "Offset": 3,
+                "Name": "FrReg_FrRegOff",
+                "Size": 1
+            }
+        ]
+    },
+    {
+        "Name": "UNWIND_CODE",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "PrologOff",
+                "Size": 1
+            },
+            {
+                "Offset": 1,
+                "Name": "OpCode_OpInfo",
+                "Size": 1
+            }
+        ]
+    },
+    {
+        "Name": "C_SCOPE_TABLE",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "Begin",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "End",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "Handler",
+                "Size": 4
+            },
+            {
+                "Offset": 12,
+                "Name": "Target",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "WSAData",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "wVersion",
+                "Size": 2
+            },
+            {
+                "Offset": 2,
+                "Name": "wHighVersion",
+                "Size": 2
+            },
+            {
+                "Offset": 4,
+                "Name": "iMaxSockets",
+                "Size": 2
+            },
+            {
+                "Offset": 6,
+                "Name": "iMaxUdpDg",
+                "Size": 2
+            },
+            {
+                "Offset": 8,
+                "Name": "lpVendorInfo",
+                "Size": 8
+            },
+            {
+                "Offset": 16,
+                "Name": "szDescription",
+                "Size": 257
+            },
+            {
+                "Offset": 273,
+                "Name": "szSystemStatus",
+                "Size": 129
+            }
+        ]
+    },
+    {
+        "Name": "_Thrd_t",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "_Hnd",
+                "Size": 8
+            },
+            {
+                "Offset": 8,
+                "Name": "_Id",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "_ThrowInfo",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "attributes",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "pmfnUnwind",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "pForwardCompat",
+                "Size": 4
+            },
+            {
+                "Offset": 12,
+                "Name": "pCatchableTypeArray",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "xtime",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "sec",
+                "Size": 8
+            },
+            {
+                "Offset": 8,
+                "Name": "nsec",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "_MEMORYSTATUSEX",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "dwLength",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "dwMemoryLoad",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "ullTotalPhys",
+                "Size": 8
+            },
+            {
+                "Offset": 16,
+                "Name": "ullAvailPhys",
+                "Size": 8
+            },
+            {
+                "Offset": 24,
+                "Name": "ullTotalPageFile",
+                "Size": 8
+            },
+            {
+                "Offset": 32,
+                "Name": "ullAvailPageFile",
+                "Size": 8
+            },
+            {
+                "Offset": 40,
+                "Name": "ullTotalVirtual",
+                "Size": 8
+            },
+            {
+                "Offset": 48,
+                "Name": "ullAvailVirtual",
+                "Size": 8
+            },
+            {
+                "Offset": 56,
+                "Name": "ullAvailExtendedVirtual",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "_SYSTEM_INFO",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "anonymous_0",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "dwPageSize",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "lpMinimumApplicationAddress",
+                "Size": 8
+            },
+            {
+                "Offset": 16,
+                "Name": "lpMaximumApplicationAddress",
+                "Size": 8
+            },
+            {
+                "Offset": 24,
+                "Name": "dwActiveProcessorMask",
+                "Size": 8
+            },
+            {
+                "Offset": 32,
+                "Name": "dwNumberOfProcessors",
+                "Size": 4
+            },
+            {
+                "Offset": 36,
+                "Name": "dwProcessorType",
+                "Size": 4
+            },
+            {
+                "Offset": 40,
+                "Name": "dwAllocationGranularity",
+                "Size": 4
+            },
+            {
+                "Offset": 44,
+                "Name": "wProcessorLevel",
+                "Size": 2
+            },
+            {
+                "Offset": 46,
+                "Name": "wProcessorRevision",
+                "Size": 2
+            }
+        ]
+    },
+    {
+        "Name": "_SYSTEM_INFO::$A707B71C060B6D10F73A71917EA8473F",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "dwOemId",
+                "Size": 4
+            },
+            {
+                "Offset": 1,
+                "Name": "anonymous_0",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "_SYSTEM_INFO::$A707B71C060B6D10F73A71917EA8473F::$AA04DEB0C6383F89F13D312A174572A9",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "wProcessorArchitecture",
+                "Size": 2
+            },
+            {
+                "Offset": 2,
+                "Name": "wReserved",
+                "Size": 2
+            }
+        ]
+    },
+    {
+        "Name": "tagRECT",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "left",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "top",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "right",
+                "Size": 4
+            },
+            {
+                "Offset": 12,
+                "Name": "bottom",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "_OSVERSIONINFOA",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "dwOSVersionInfoSize",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "dwMajorVersion",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "dwMinorVersion",
+                "Size": 4
+            },
+            {
+                "Offset": 12,
+                "Name": "dwBuildNumber",
+                "Size": 4
+            },
+            {
+                "Offset": 16,
+                "Name": "dwPlatformId",
+                "Size": 4
+            },
+            {
+                "Offset": 20,
+                "Name": "szCSDVersion",
+                "Size": 128
+            }
+        ]
+    },
+    {
+        "Name": "ULARGE_INTEGER",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "anonymous_0",
+                "Size": 8
+            },
+            {
+                "Offset": 1,
+                "Name": "u",
+                "Size": 8
+            },
+            {
+                "Offset": 2,
+                "Name": "QuadPart",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "_ULARGE_INTEGER::$0354AA9C204208F00D0965D07BBE7FAC",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "LowPart",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "HighPart",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "tagMONITORINFO",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "cbSize",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "rcMonitor",
+                "Size": 16
+            },
+            {
+                "Offset": 20,
+                "Name": "rcWork",
+                "Size": 16
+            },
+            {
+                "Offset": 36,
+                "Name": "dwFlags",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "RECT",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "left",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "top",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "right",
+                "Size": 4
+            },
+            {
+                "Offset": 12,
+                "Name": "bottom",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "PROCESS_MEMORY_COUNTERS",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "cb",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "PageFaultCount",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "PeakWorkingSetSize",
+                "Size": 8
+            },
+            {
+                "Offset": 16,
+                "Name": "WorkingSetSize",
+                "Size": 8
+            },
+            {
+                "Offset": 24,
+                "Name": "QuotaPeakPagedPoolUsage",
+                "Size": 8
+            },
+            {
+                "Offset": 32,
+                "Name": "QuotaPagedPoolUsage",
+                "Size": 8
+            },
+            {
+                "Offset": 40,
+                "Name": "QuotaPeakNonPagedPoolUsage",
+                "Size": 8
+            },
+            {
+                "Offset": 48,
+                "Name": "QuotaNonPagedPoolUsage",
+                "Size": 8
+            },
+            {
+                "Offset": 56,
+                "Name": "PagefileUsage",
+                "Size": 8
+            },
+            {
+                "Offset": 64,
+                "Name": "PeakPagefileUsage",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "_RTL_RUN_ONCE",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "Ptr",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "_MIB_IF_ROW2",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "InterfaceLuid",
+                "Size": 8
+            },
+            {
+                "Offset": 8,
+                "Name": "InterfaceIndex",
+                "Size": 4
+            },
+            {
+                "Offset": 12,
+                "Name": "InterfaceGuid",
+                "Size": 16
+            },
+            {
+                "Offset": 28,
+                "Name": "Alias",
+                "Size": 514
+            },
+            {
+                "Offset": 542,
+                "Name": "Description",
+                "Size": 514
+            },
+            {
+                "Offset": 1056,
+                "Name": "PhysicalAddressLength",
+                "Size": 4
+            },
+            {
+                "Offset": 1060,
+                "Name": "PhysicalAddress",
+                "Size": 32
+            },
+            {
+                "Offset": 1092,
+                "Name": "PermanentPhysicalAddress",
+                "Size": 32
+            },
+            {
+                "Offset": 1124,
+                "Name": "Mtu",
+                "Size": 4
+            },
+            {
+                "Offset": 1128,
+                "Name": "Type",
+                "Size": 4
+            },
+            {
+                "Offset": 1132,
+                "Name": "TunnelType",
+                "Size": 4
+            },
+            {
+                "Offset": 1136,
+                "Name": "MediaType",
+                "Size": 4
+            },
+            {
+                "Offset": 1140,
+                "Name": "PhysicalMediumType",
+                "Size": 4
+            },
+            {
+                "Offset": 1144,
+                "Name": "AccessType",
+                "Size": 4
+            },
+            {
+                "Offset": 1148,
+                "Name": "DirectionType",
+                "Size": 4
+            },
+            {
+                "Offset": 1152,
+                "Name": "InterfaceAndOperStatusFlags",
+                "Size": 1
+            },
+            {
+                "Offset": 1156,
+                "Name": "OperStatus",
+                "Size": 4
+            },
+            {
+                "Offset": 1160,
+                "Name": "AdminStatus",
+                "Size": 4
+            },
+            {
+                "Offset": 1164,
+                "Name": "MediaConnectState",
+                "Size": 4
+            },
+            {
+                "Offset": 1168,
+                "Name": "NetworkGuid",
+                "Size": 16
+            },
+            {
+                "Offset": 1184,
+                "Name": "ConnectionType",
+                "Size": 4
+            },
+            {
+                "Offset": 1192,
+                "Name": "TransmitLinkSpeed",
+                "Size": 8
+            },
+            {
+                "Offset": 1200,
+                "Name": "ReceiveLinkSpeed",
+                "Size": 8
+            },
+            {
+                "Offset": 1208,
+                "Name": "InOctets",
+                "Size": 8
+            },
+            {
+                "Offset": 1216,
+                "Name": "InUcastPkts",
+                "Size": 8
+            },
+            {
+                "Offset": 1224,
+                "Name": "InNUcastPkts",
+                "Size": 8
+            },
+            {
+                "Offset": 1232,
+                "Name": "InDiscards",
+                "Size": 8
+            },
+            {
+                "Offset": 1240,
+                "Name": "InErrors",
+                "Size": 8
+            },
+            {
+                "Offset": 1248,
+                "Name": "InUnknownProtos",
+                "Size": 8
+            },
+            {
+                "Offset": 1256,
+                "Name": "InUcastOctets",
+                "Size": 8
+            },
+            {
+                "Offset": 1264,
+                "Name": "InMulticastOctets",
+                "Size": 8
+            },
+            {
+                "Offset": 1272,
+                "Name": "InBroadcastOctets",
+                "Size": 8
+            },
+            {
+                "Offset": 1280,
+                "Name": "OutOctets",
+                "Size": 8
+            },
+            {
+                "Offset": 1288,
+                "Name": "OutUcastPkts",
+                "Size": 8
+            },
+            {
+                "Offset": 1296,
+                "Name": "OutNUcastPkts",
+                "Size": 8
+            },
+            {
+                "Offset": 1304,
+                "Name": "OutDiscards",
+                "Size": 8
+            },
+            {
+                "Offset": 1312,
+                "Name": "OutErrors",
+                "Size": 8
+            },
+            {
+                "Offset": 1320,
+                "Name": "OutUcastOctets",
+                "Size": 8
+            },
+            {
+                "Offset": 1328,
+                "Name": "OutMulticastOctets",
+                "Size": 8
+            },
+            {
+                "Offset": 1336,
+                "Name": "OutBroadcastOctets",
+                "Size": 8
+            },
+            {
+                "Offset": 1344,
+                "Name": "OutQLen",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "NET_LUID",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "Value",
+                "Size": 8
+            },
+            {
+                "Offset": 1,
+                "Name": "Info",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "_NET_LUID_LH::$0227A65EDE726BD8ABDBF310B0E65A75",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "_bf_0",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "_MIB_IF_ROW2::$FD4F5A8346D7C3E83A88C7839E78F950",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "_bf_0",
+                "Size": 1
+            }
+        ]
+    },
+    {
+        "Name": "NET_IF_NETWORK_GUID",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "Data1",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "Data2",
+                "Size": 2
+            },
+            {
+                "Offset": 6,
+                "Name": "Data3",
+                "Size": 2
+            },
+            {
+                "Offset": 8,
+                "Name": "Data4",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "ADDRINFOA",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "ai_flags",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "ai_family",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "ai_socktype",
+                "Size": 4
+            },
+            {
+                "Offset": 12,
+                "Name": "ai_protocol",
+                "Size": 4
+            },
+            {
+                "Offset": 16,
+                "Name": "ai_addrlen",
+                "Size": 8
+            },
+            {
+                "Offset": 24,
+                "Name": "ai_canonname",
+                "Size": 8
+            },
+            {
+                "Offset": 32,
+                "Name": "ai_addr",
+                "Size": 8
+            },
+            {
+                "Offset": 40,
+                "Name": "ai_next",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "fd_set",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "fd_count",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "fd_array",
+                "Size": 512
+            }
+        ]
+    },
+    {
+        "Name": "timeval",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "tv_sec",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "tv_usec",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "sockaddr",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "sa_family",
+                "Size": 2
+            },
+            {
+                "Offset": 2,
+                "Name": "sa_data",
+                "Size": 14
+            }
+        ]
+    },
+    {
+        "Name": "LARGE_INTEGER",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "anonymous_0",
+                "Size": 8
+            },
+            {
+                "Offset": 1,
+                "Name": "u",
+                "Size": 8
+            },
+            {
+                "Offset": 2,
+                "Name": "QuadPart",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "_LARGE_INTEGER::$837407842DC9087486FDFA5FEB63B74E",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "LowPart",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "HighPart",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "in_addr",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "S_un",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "in_addr::$4F64C6817212FE4AF89030399F21EE2D",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "S_un_b",
+                "Size": 4
+            },
+            {
+                "Offset": 1,
+                "Name": "S_un_w",
+                "Size": 4
+            },
+            {
+                "Offset": 2,
+                "Name": "S_addr",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "in_addr::$4F64C6817212FE4AF89030399F21EE2D::$F085A1F6735C7CEA9C650424FAF692B1",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "s_b1",
+                "Size": 1
+            },
+            {
+                "Offset": 1,
+                "Name": "s_b2",
+                "Size": 1
+            },
+            {
+                "Offset": 2,
+                "Name": "s_b3",
+                "Size": 1
+            },
+            {
+                "Offset": 3,
+                "Name": "s_b4",
+                "Size": 1
+            }
+        ]
+    },
+    {
+        "Name": "in_addr::$4F64C6817212FE4AF89030399F21EE2D::$B9D7529FFD1842B2B059BD2E926FB2C5",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "s_w1",
+                "Size": 2
+            },
+            {
+                "Offset": 2,
+                "Name": "s_w2",
+                "Size": 2
+            }
+        ]
+    },
+    {
+        "Name": "_WSANETWORKEVENTS",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "lNetworkEvents",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "iErrorCode",
+                "Size": 40
+            }
+        ]
+    },
+    {
+        "Name": "_TIME_ZONE_INFORMATION",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "Bias",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "StandardName",
+                "Size": 64
+            },
+            {
+                "Offset": 68,
+                "Name": "StandardDate",
+                "Size": 16
+            },
+            {
+                "Offset": 84,
+                "Name": "StandardBias",
+                "Size": 4
+            },
+            {
+                "Offset": 88,
+                "Name": "DaylightName",
+                "Size": 64
+            },
+            {
+                "Offset": 152,
+                "Name": "DaylightDate",
+                "Size": 16
+            },
+            {
+                "Offset": 168,
+                "Name": "DaylightBias",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "SYSTEMTIME",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "wYear",
+                "Size": 2
+            },
+            {
+                "Offset": 2,
+                "Name": "wMonth",
+                "Size": 2
+            },
+            {
+                "Offset": 4,
+                "Name": "wDayOfWeek",
+                "Size": 2
+            },
+            {
+                "Offset": 6,
+                "Name": "wDay",
+                "Size": 2
+            },
+            {
+                "Offset": 8,
+                "Name": "wHour",
+                "Size": 2
+            },
+            {
+                "Offset": 10,
+                "Name": "wMinute",
+                "Size": 2
+            },
+            {
+                "Offset": 12,
+                "Name": "wSecond",
+                "Size": 2
+            },
+            {
+                "Offset": 14,
+                "Name": "wMilliseconds",
+                "Size": 2
+            }
+        ]
+    },
+    {
+        "Name": "_FILETIME",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "dwLowDateTime",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "dwHighDateTime",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "__timeb64",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "time",
+                "Size": 8
+            },
+            {
+                "Offset": 8,
+                "Name": "millitm",
+                "Size": 2
+            },
+            {
+                "Offset": 10,
+                "Name": "timezone",
+                "Size": 2
+            },
+            {
+                "Offset": 12,
+                "Name": "dstflag",
+                "Size": 2
+            }
+        ]
+    },
+    {
+        "Name": "tm",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "tm_sec",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "tm_min",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "tm_hour",
+                "Size": 4
+            },
+            {
+                "Offset": 12,
+                "Name": "tm_mday",
+                "Size": 4
+            },
+            {
+                "Offset": 16,
+                "Name": "tm_mon",
+                "Size": 4
+            },
+            {
+                "Offset": 20,
+                "Name": "tm_year",
+                "Size": 4
+            },
+            {
+                "Offset": 24,
+                "Name": "tm_wday",
+                "Size": 4
+            },
+            {
+                "Offset": 28,
+                "Name": "tm_yday",
+                "Size": 4
+            },
+            {
+                "Offset": 32,
+                "Name": "tm_isdst",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "_stat64i32",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "st_dev",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "st_ino",
+                "Size": 2
+            },
+            {
+                "Offset": 6,
+                "Name": "st_mode",
+                "Size": 2
+            },
+            {
+                "Offset": 8,
+                "Name": "st_nlink",
+                "Size": 2
+            },
+            {
+                "Offset": 10,
+                "Name": "st_uid",
+                "Size": 2
+            },
+            {
+                "Offset": 12,
+                "Name": "st_gid",
+                "Size": 2
+            },
+            {
+                "Offset": 16,
+                "Name": "st_rdev",
+                "Size": 4
+            },
+            {
+                "Offset": 20,
+                "Name": "st_size",
+                "Size": 4
+            },
+            {
+                "Offset": 24,
+                "Name": "st_atime",
+                "Size": 8
+            },
+            {
+                "Offset": 32,
+                "Name": "st_mtime",
+                "Size": 8
+            },
+            {
+                "Offset": 40,
+                "Name": "st_ctime",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "__utimbuf64",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "actime",
+                "Size": 8
+            },
+            {
+                "Offset": 8,
+                "Name": "modtime",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "_stat64",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "st_dev",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "st_ino",
+                "Size": 2
+            },
+            {
+                "Offset": 6,
+                "Name": "st_mode",
+                "Size": 2
+            },
+            {
+                "Offset": 8,
+                "Name": "st_nlink",
+                "Size": 2
+            },
+            {
+                "Offset": 10,
+                "Name": "st_uid",
+                "Size": 2
+            },
+            {
+                "Offset": 12,
+                "Name": "st_gid",
+                "Size": 2
+            },
+            {
+                "Offset": 16,
+                "Name": "st_rdev",
+                "Size": 4
+            },
+            {
+                "Offset": 24,
+                "Name": "st_size",
+                "Size": 8
+            },
+            {
+                "Offset": 32,
+                "Name": "st_atime",
+                "Size": 8
+            },
+            {
+                "Offset": 40,
+                "Name": "st_mtime",
+                "Size": 8
+            },
+            {
+                "Offset": 48,
+                "Name": "st_ctime",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "KNOWNFOLDERID",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "Data1",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "Data2",
+                "Size": 2
+            },
+            {
+                "Offset": 6,
+                "Name": "Data3",
+                "Size": 2
+            },
+            {
+                "Offset": 8,
+                "Name": "Data4",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "_OSVERSIONINFOEXW",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "dwOSVersionInfoSize",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "dwMajorVersion",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "dwMinorVersion",
+                "Size": 4
+            },
+            {
+                "Offset": 12,
+                "Name": "dwBuildNumber",
+                "Size": 4
+            },
+            {
+                "Offset": 16,
+                "Name": "dwPlatformId",
+                "Size": 4
+            },
+            {
+                "Offset": 20,
+                "Name": "szCSDVersion",
+                "Size": 256
+            },
+            {
+                "Offset": 276,
+                "Name": "wServicePackMajor",
+                "Size": 2
+            },
+            {
+                "Offset": 278,
+                "Name": "wServicePackMinor",
+                "Size": 2
+            },
+            {
+                "Offset": 280,
+                "Name": "wSuiteMask",
+                "Size": 2
+            },
+            {
+                "Offset": 282,
+                "Name": "wProductType",
+                "Size": 1
+            },
+            {
+                "Offset": 283,
+                "Name": "wReserved",
+                "Size": 1
+            }
+        ]
+    },
+    {
+        "Name": "_WSABUF",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "len",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "buf",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "_CERT_CHAIN_PARA",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "cbSize",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "RequestedUsage",
+                "Size": 24
+            }
+        ]
+    },
+    {
+        "Name": "CERT_USAGE_MATCH",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "dwType",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "Usage",
+                "Size": 16
+            }
+        ]
+    },
+    {
+        "Name": "CERT_ENHKEY_USAGE",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "cUsageIdentifier",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "rgpszUsageIdentifier",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "WINHTTP_CURRENT_USER_IE_PROXY_CONFIG",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "fAutoDetect",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "lpszAutoConfigUrl",
+                "Size": 8
+            },
+            {
+                "Offset": 16,
+                "Name": "lpszProxy",
+                "Size": 8
+            },
+            {
+                "Offset": 24,
+                "Name": "lpszProxyBypass",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "WINHTTP_AUTOPROXY_OPTIONS",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "dwFlags",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "dwAutoDetectFlags",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "lpszAutoConfigUrl",
+                "Size": 8
+            },
+            {
+                "Offset": 16,
+                "Name": "lpvReserved",
+                "Size": 8
+            },
+            {
+                "Offset": 24,
+                "Name": "dwReserved",
+                "Size": 4
+            },
+            {
+                "Offset": 28,
+                "Name": "fAutoLogonIfChallenged",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "WINHTTP_PROXY_INFO",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "dwAccessType",
+                "Size": 4
+            },
+            {
+                "Offset": 8,
+                "Name": "lpszProxy",
+                "Size": 8
+            },
+            {
+                "Offset": 16,
+                "Name": "lpszProxyBypass",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "_SYSTEMTIME",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "wYear",
+                "Size": 2
+            },
+            {
+                "Offset": 2,
+                "Name": "wMonth",
+                "Size": 2
+            },
+            {
+                "Offset": 4,
+                "Name": "wDayOfWeek",
+                "Size": 2
+            },
+            {
+                "Offset": 6,
+                "Name": "wDay",
+                "Size": 2
+            },
+            {
+                "Offset": 8,
+                "Name": "wHour",
+                "Size": 2
+            },
+            {
+                "Offset": 10,
+                "Name": "wMinute",
+                "Size": 2
+            },
+            {
+                "Offset": 12,
+                "Name": "wSecond",
+                "Size": 2
+            },
+            {
+                "Offset": 14,
+                "Name": "wMilliseconds",
+                "Size": 2
+            }
+        ]
+    },
+    {
+        "Name": "_WIN32_FIND_DATAW",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "dwFileAttributes",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "ftCreationTime",
+                "Size": 8
+            },
+            {
+                "Offset": 12,
+                "Name": "ftLastAccessTime",
+                "Size": 8
+            },
+            {
+                "Offset": 20,
+                "Name": "ftLastWriteTime",
+                "Size": 8
+            },
+            {
+                "Offset": 28,
+                "Name": "nFileSizeHigh",
+                "Size": 4
+            },
+            {
+                "Offset": 32,
+                "Name": "nFileSizeLow",
+                "Size": 4
+            },
+            {
+                "Offset": 36,
+                "Name": "dwReserved0",
+                "Size": 4
+            },
+            {
+                "Offset": 40,
+                "Name": "dwReserved1",
+                "Size": 4
+            },
+            {
+                "Offset": 44,
+                "Name": "cFileName",
+                "Size": 520
+            },
+            {
+                "Offset": 564,
+                "Name": "cAlternateFileName",
+                "Size": 28
+            }
+        ]
+    },
+    {
+        "Name": "FILETIME",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "dwLowDateTime",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "dwHighDateTime",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "_onexit_table_t",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "_first",
+                "Size": 8
+            },
+            {
+                "Offset": 8,
+                "Name": "_last",
+                "Size": 8
+            },
+            {
+                "Offset": 16,
+                "Name": "_end",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "_RTL_CRITICAL_SECTION",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "DebugInfo",
+                "Size": 8
+            },
+            {
+                "Offset": 8,
+                "Name": "LockCount",
+                "Size": 4
+            },
+            {
+                "Offset": 12,
+                "Name": "RecursionCount",
+                "Size": 4
+            },
+            {
+                "Offset": 16,
+                "Name": "OwningThread",
+                "Size": 8
+            },
+            {
+                "Offset": 24,
+                "Name": "LockSemaphore",
+                "Size": 8
+            },
+            {
+                "Offset": 32,
+                "Name": "SpinCount",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "_CONTEXT",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "P1Home",
+                "Size": 8
+            },
+            {
+                "Offset": 8,
+                "Name": "P2Home",
+                "Size": 8
+            },
+            {
+                "Offset": 16,
+                "Name": "P3Home",
+                "Size": 8
+            },
+            {
+                "Offset": 24,
+                "Name": "P4Home",
+                "Size": 8
+            },
+            {
+                "Offset": 32,
+                "Name": "P5Home",
+                "Size": 8
+            },
+            {
+                "Offset": 40,
+                "Name": "P6Home",
+                "Size": 8
+            },
+            {
+                "Offset": 48,
+                "Name": "ContextFlags",
+                "Size": 4
+            },
+            {
+                "Offset": 52,
+                "Name": "_MxCsr",
+                "Size": 4
+            },
+            {
+                "Offset": 56,
+                "Name": "SegCs",
+                "Size": 2
+            },
+            {
+                "Offset": 58,
+                "Name": "SegDs",
+                "Size": 2
+            },
+            {
+                "Offset": 60,
+                "Name": "SegEs",
+                "Size": 2
+            },
+            {
+                "Offset": 62,
+                "Name": "SegFs",
+                "Size": 2
+            },
+            {
+                "Offset": 64,
+                "Name": "SegGs",
+                "Size": 2
+            },
+            {
+                "Offset": 66,
+                "Name": "SegSs",
+                "Size": 2
+            },
+            {
+                "Offset": 68,
+                "Name": "EFlags",
+                "Size": 4
+            },
+            {
+                "Offset": 72,
+                "Name": "Dr0",
+                "Size": 8
+            },
+            {
+                "Offset": 80,
+                "Name": "Dr1",
+                "Size": 8
+            },
+            {
+                "Offset": 88,
+                "Name": "Dr2",
+                "Size": 8
+            },
+            {
+                "Offset": 96,
+                "Name": "Dr3",
+                "Size": 8
+            },
+            {
+                "Offset": 104,
+                "Name": "Dr6",
+                "Size": 8
+            },
+            {
+                "Offset": 112,
+                "Name": "Dr7",
+                "Size": 8
+            },
+            {
+                "Offset": 120,
+                "Name": "_Rax",
+                "Size": 8
+            },
+            {
+                "Offset": 128,
+                "Name": "_Rcx",
+                "Size": 8
+            },
+            {
+                "Offset": 136,
+                "Name": "_Rdx",
+                "Size": 8
+            },
+            {
+                "Offset": 144,
+                "Name": "_Rbx",
+                "Size": 8
+            },
+            {
+                "Offset": 152,
+                "Name": "_Rsp",
+                "Size": 8
+            },
+            {
+                "Offset": 160,
+                "Name": "_Rbp",
+                "Size": 8
+            },
+            {
+                "Offset": 168,
+                "Name": "_Rsi",
+                "Size": 8
+            },
+            {
+                "Offset": 176,
+                "Name": "_Rdi",
+                "Size": 8
+            },
+            {
+                "Offset": 184,
+                "Name": "_R8",
+                "Size": 8
+            },
+            {
+                "Offset": 192,
+                "Name": "_R9",
+                "Size": 8
+            },
+            {
+                "Offset": 200,
+                "Name": "_R10",
+                "Size": 8
+            },
+            {
+                "Offset": 208,
+                "Name": "_R11",
+                "Size": 8
+            },
+            {
+                "Offset": 216,
+                "Name": "_R12",
+                "Size": 8
+            },
+            {
+                "Offset": 224,
+                "Name": "_R13",
+                "Size": 8
+            },
+            {
+                "Offset": 232,
+                "Name": "_R14",
+                "Size": 8
+            },
+            {
+                "Offset": 240,
+                "Name": "_R15",
+                "Size": 8
+            },
+            {
+                "Offset": 248,
+                "Name": "_Rip",
+                "Size": 8
+            },
+            {
+                "Offset": 256,
+                "Name": "anonymous_0",
+                "Size": 512
+            },
+            {
+                "Offset": 768,
+                "Name": "VectorRegister",
+                "Size": 416
+            },
+            {
+                "Offset": 1184,
+                "Name": "VectorControl",
+                "Size": 8
+            },
+            {
+                "Offset": 1192,
+                "Name": "DebugControl",
+                "Size": 8
+            },
+            {
+                "Offset": 1200,
+                "Name": "LastBranchToRip",
+                "Size": 8
+            },
+            {
+                "Offset": 1208,
+                "Name": "LastBranchFromRip",
+                "Size": 8
+            },
+            {
+                "Offset": 1216,
+                "Name": "LastExceptionToRip",
+                "Size": 8
+            },
+            {
+                "Offset": 1224,
+                "Name": "LastExceptionFromRip",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "_CONTEXT::$D2ECA93702C646ACAFACD524BE9E8FEB",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "FltSave",
+                "Size": 512
+            },
+            {
+                "Offset": 1,
+                "Name": "anonymous_0",
+                "Size": 416
+            }
+        ]
+    },
+    {
+        "Name": "XMM_SAVE_AREA32",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "ControlWord",
+                "Size": 2
+            },
+            {
+                "Offset": 2,
+                "Name": "StatusWord",
+                "Size": 2
+            },
+            {
+                "Offset": 4,
+                "Name": "TagWord",
+                "Size": 1
+            },
+            {
+                "Offset": 5,
+                "Name": "Reserved1",
+                "Size": 1
+            },
+            {
+                "Offset": 6,
+                "Name": "ErrorOpcode",
+                "Size": 2
+            },
+            {
+                "Offset": 8,
+                "Name": "ErrorOffset",
+                "Size": 4
+            },
+            {
+                "Offset": 12,
+                "Name": "ErrorSelector",
+                "Size": 2
+            },
+            {
+                "Offset": 14,
+                "Name": "Reserved2",
+                "Size": 2
+            },
+            {
+                "Offset": 16,
+                "Name": "DataOffset",
+                "Size": 4
+            },
+            {
+                "Offset": 20,
+                "Name": "DataSelector",
+                "Size": 2
+            },
+            {
+                "Offset": 22,
+                "Name": "Reserved3",
+                "Size": 2
+            },
+            {
+                "Offset": 24,
+                "Name": "_MxCsr",
+                "Size": 4
+            },
+            {
+                "Offset": 28,
+                "Name": "MxCsr_Mask",
+                "Size": 4
+            },
+            {
+                "Offset": 32,
+                "Name": "FloatRegisters",
+                "Size": 128
+            },
+            {
+                "Offset": 160,
+                "Name": "XmmRegisters",
+                "Size": 256
+            },
+            {
+                "Offset": 416,
+                "Name": "Reserved4",
+                "Size": 96
+            }
+        ]
+    },
+    {
+        "Name": "M128A",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "Low",
+                "Size": 8
+            },
+            {
+                "Offset": 8,
+                "Name": "High",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "_CONTEXT::$D2ECA93702C646ACAFACD524BE9E8FEB::$897D11C01F73F7E79A06B0B9ED9B9414",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "Header",
+                "Size": 32
+            },
+            {
+                "Offset": 32,
+                "Name": "Legacy",
+                "Size": 128
+            },
+            {
+                "Offset": 160,
+                "Name": "_Xmm0",
+                "Size": 16
+            },
+            {
+                "Offset": 176,
+                "Name": "_Xmm1",
+                "Size": 16
+            },
+            {
+                "Offset": 192,
+                "Name": "_Xmm2",
+                "Size": 16
+            },
+            {
+                "Offset": 208,
+                "Name": "_Xmm3",
+                "Size": 16
+            },
+            {
+                "Offset": 224,
+                "Name": "_Xmm4",
+                "Size": 16
+            },
+            {
+                "Offset": 240,
+                "Name": "_Xmm5",
+                "Size": 16
+            },
+            {
+                "Offset": 256,
+                "Name": "_Xmm6",
+                "Size": 16
+            },
+            {
+                "Offset": 272,
+                "Name": "_Xmm7",
+                "Size": 16
+            },
+            {
+                "Offset": 288,
+                "Name": "_Xmm8",
+                "Size": 16
+            },
+            {
+                "Offset": 304,
+                "Name": "_Xmm9",
+                "Size": 16
+            },
+            {
+                "Offset": 320,
+                "Name": "_Xmm10",
+                "Size": 16
+            },
+            {
+                "Offset": 336,
+                "Name": "_Xmm11",
+                "Size": 16
+            },
+            {
+                "Offset": 352,
+                "Name": "_Xmm12",
+                "Size": 16
+            },
+            {
+                "Offset": 368,
+                "Name": "_Xmm13",
+                "Size": 16
+            },
+            {
+                "Offset": 384,
+                "Name": "_Xmm14",
+                "Size": 16
+            },
+            {
+                "Offset": 400,
+                "Name": "_Xmm15",
+                "Size": 16
+            }
+        ]
+    },
+    {
+        "Name": "_EXCEPTION_POINTERS",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "ExceptionRecord",
+                "Size": 8
+            },
+            {
+                "Offset": 8,
+                "Name": "ContextRecord",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "UUID",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "Data1",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "Data2",
+                "Size": 2
+            },
+            {
+                "Offset": 6,
+                "Name": "Data3",
+                "Size": 2
+            },
+            {
+                "Offset": 8,
+                "Name": "Data4",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "Dimension",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "lpVtbl",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "in6_addr",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "u",
+                "Size": 16
+            }
+        ]
+    },
+    {
+        "Name": "sockaddr_storage",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "ss_family",
+                "Size": 2
+            },
+            {
+                "Offset": 2,
+                "Name": "__ss_pad1",
+                "Size": 6
+            },
+            {
+                "Offset": 8,
+                "Name": "__ss_align",
+                "Size": 8
+            },
+            {
+                "Offset": 16,
+                "Name": "__ss_pad2",
+                "Size": 112
+            }
+        ]
+    },
+    {
+        "Name": "_IP_ADAPTER_PREFIX_XP",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "anonymous_0",
+                "Size": 8
+            },
+            {
+                "Offset": 8,
+                "Name": "Next",
+                "Size": 8
+            },
+            {
+                "Offset": 16,
+                "Name": "Address",
+                "Size": 16
+            },
+            {
+                "Offset": 32,
+                "Name": "PrefixLength",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "_IP_ADAPTER_PREFIX_XP::$062DE21AAEE92240DFF2100A002A9516",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "Alignment",
+                "Size": 8
+            },
+            {
+                "Offset": 1,
+                "Name": "anonymous_0",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "_IP_ADAPTER_PREFIX_XP::$062DE21AAEE92240DFF2100A002A9516::$558C11AAB270A8DE5636A48AC52A55A4",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "Length",
+                "Size": 4
+            },
+            {
+                "Offset": 4,
+                "Name": "Flags",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "SOCKET_ADDRESS",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "lpSockaddr",
+                "Size": 8
+            },
+            {
+                "Offset": 8,
+                "Name": "iSockaddrLength",
+                "Size": 4
+            }
+        ]
+    },
+    {
+        "Name": "Parameters",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "lpVtbl",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "Node",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "lpVtbl",
+                "Size": 8
+            }
+        ]
+    },
+    {
+        "Name": "Property",
+        "Members": [
+            {
+                "Offset": 0,
+                "Name": "lpVtbl",
+                "Size": 8
+            }
+        ]
+    }
+]
