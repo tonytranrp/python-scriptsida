@@ -24,13 +24,17 @@ def get_unique_signature(start, end):
             insn_bytes = ida_bytes.get_bytes(addr, insn.size)
             # Convert bytes to a signature format
             sig_part = " ".join(["{:02X}".format(byte) for byte in insn_bytes])
+            # Change 00 bytes to ? for better readability (IDA uses ? for unknown bytes aka wildcards)
+            sig_part = sig_part.replace("00", "?")
             # Append the signature part to the overall signature
             signature += sig_part + " "
-            # Move to the next instruction
+            
             addr += insn.size
         else:
             # If disassembly fails, move to the next byte
             addr += 1
+            # Move to the next instruction
+    # signature = signature + " "
     return signature.strip()
 
 def get_offsets(func_ea):
@@ -66,9 +70,9 @@ def get_functions():
         # Append function information to the list
         functions.append({
             "Address": hex(func_ea),
-            "Name": func_name,
-            "Demangled": demangled_name,
-            "Signature": signature,
+            "name": func_name,
+            "demangledname": demangled_name,
+            "signature": signature,
             "Offsets": offsets,
             "OffsetFindAll": offset_findall
         })
