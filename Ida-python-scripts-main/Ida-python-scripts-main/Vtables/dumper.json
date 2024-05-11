@@ -1,0 +1,32 @@
+{
+    "Name": {
+        "Symbol": "??_7GameMode@@6B@",
+        "Demangled": "const GameMode::`vftable'"
+    },
+    "Size": 152,
+    "Info": {
+        "HexSize": "0x98",
+        "Functions": 19
+    },
+    "Functions": {
+        "0": "??_EGameMode@@UEAAPEAXI@Z",
+        "1": "?startDestroyBlock@GameMode@@UEAA_NAEBVBlockPos@@EAEA_N@Z",
+        "2": "?destroyBlock@GameMode@@UEAA_NAEBVBlockPos@@E@Z",
+        "3": "?continueDestroyBlock@GameMode@@UEAA_NAEBVBlockPos@@EAEBVVec3@@AEA_N@Z",
+        "4": "?stopDestroyBlock@GameMode@@UEAAXAEBVBlockPos@@@Z",
+        "5": "?startBuildBlock@GameMode@@UEAAXAEBVBlockPos@@E@Z",
+        "6": "?buildBlock@GameMode@@UEAA_NAEBVBlockPos@@E_N@Z",
+        "7": "?continueBuildBlock@GameMode@@UEAAXAEBVBlockPos@@E@Z",
+        "8": "?stopBuildBlock@GameMode@@UEAAXXZ",
+        "9": "?tick@GameMode@@UEAAXXZ",
+        "10": "?getPickRange@GameMode@@UEAAMAEBW4InputMode@@_N@Z",
+        "11": "?useItem@GameMode@@UEAA_NAEAVItemStack@@@Z",
+        "12": "?useItemOn@GameMode@@UEAA?AVInteractionResult@@AEAVItemStack@@AEBVBlockPos@@EAEBVVec3@@PEBVBlock@@@Z",
+        "13": "?interact@GameMode@@UEAA_NAEAVActor@@AEBVVec3@@@Z",
+        "14": "?attack@GameMode@@UEAA_NAEAVActor@@@Z",
+        "15": "?releaseUsingItem@GameMode@@UEAAXXZ",
+        "16": "??$basic_vtable@V?$optional@UScriptDimensionLocation@ScriptModuleMinecraft@@@std@@@meta_any@entt@@CAXW4meta_traits@internal@1@_NPEBXPEAX@Z",
+        "17": "?hasGetStrictParsingVersion@?$JsonDefinitionSerializer@VBlockClimberDefinition@@@@UEAA_NXZ",
+        "18": "?exitVRMode@AppPlatform@@UEAAXV?$function@$$A6AXXZ@std@@@Z"
+    }
+}

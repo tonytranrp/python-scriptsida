@@ -1,13 +1,12 @@
-import asyncio
 import idaapi as api
 import idautils as utils
 import idc as idc
 import ida_bytes
 import json
 import ida_search
-
-async def get_function_bounds_async(ea):
-    # Get the start and end addresses of the function containing the given address asynchronously
+import ida_name as idaname
+def get_function_bounds(ea):
+    # Get the start and end addresses of the function containing the given address
     func = api.get_func(ea)
     if func:
         start = func.start_ea
@@ -15,7 +14,7 @@ async def get_function_bounds_async(ea):
         return start, end
     return None, None
 
-async def get_unique_signature_async(start, end):
+def get_unique_signature(start, end):
     signature = ""
     addr = start
     while addr < end:
@@ -36,7 +35,7 @@ async def get_unique_signature_async(start, end):
             addr += 1
     return signature.strip()
 
-async def get_offsets_async(func_ea):
+def get_offsets(func_ea):
     offsets = set()  # Using a set to ensure uniqueness
     func_disasm = idc.GetDisasm(func_ea)
     lines = func_disasm.split('\n')
@@ -46,8 +45,25 @@ async def get_offsets_async(func_ea):
             offsets.add(offset)
     return list(offsets)
 
+def get_disscode(func_ea):
+    offsets = set()  # Using a set to ensure uniqueness
+    func = api.get_func(func_ea)
+    if not func:
+        return []
 
-async def get_offsetsall_async(func_ea):
+    start = func.start_ea
+    end = func.end_ea
+
+
+    # Iterate over each address in the function's range
+    for addr in range(start, end):
+        # Get the disassembly of the current instruction
+        line = idc.GetDisasm(addr)
+        offsets.add(line)
+
+    return list(offsets)
+
+def get_offsetsall(func_ea):
     offsets = set()  # Using a set to ensure uniqueness
     func = api.get_func(func_ea)
     if not func:
@@ -59,10 +75,10 @@ async def get_offsetsall_async(func_ea):
     # Assemble a list of interesting instruction patterns
     patterns = [
         "rax, [rcx+",
-        "rbx, [rcx+",   "[rcx+", 
+        "rbx, [rcx+",   "[rcx+",
         "rdx, [rsi+",   "[rsi+",
-        "ecx, [rax+",   "[rbx+", 
-        "rax, [rax+",   "[rax+", 
+        "ecx, [rax+",   "[rbx+",
+        "rax, [rax+",   "[rax+",
         "eax, [rsi+",   "[rdx+",
 
         "ecx, [rbx+", "rcx, [rcx+", "rax, [rbx+",
@@ -86,33 +102,40 @@ async def get_offsetsall_async(func_ea):
 
     return list(offsets)
 
-async def get_functions_async():
-    tasks = []
+def get_functions():
+    functions_info = []
     for func_ea in utils.Functions():
-        tasks.append(get_function_info_async(func_ea))
-    return await asyncio.gather(*tasks)
+        func_info = get_function_info(func_ea)
+        functions_info.append(func_info)
+    return functions_info
 
-async def get_function_info_async(func_ea):
+def get_function_info(func_ea):
     # Get function name and demangled name
     func_name = idc.get_func_name(func_ea)
     demangled_name = idc.demangle_name(func_name, api.cvar.inf.long_demnames)
     # Get function bounds
-    start, end = await get_function_bounds_async(func_ea)
+    start, end = get_function_bounds(func_ea)
     # Generate signature
-    signature = await get_unique_signature_async(start, end)
+    signature = get_unique_signature(start, end)
     # Get offsets and offset_findall
-    offsets = await get_offsets_async(func_ea)
-    offset_findall = await get_offsetsall_async(func_ea)
+    offsets = get_offsets(func_ea)
+    offset_findall = get_offsetsall(func_ea)
+    # Get disassembly
+    disassembly = get_disscode(func_ea)
+    # Print message for the current function being dumped
+    api.msg(f"Dumping function: {demangled_name}\n")
     return {
         "Address": hex(func_ea),
         "Name": func_name,
         "Demangled": demangled_name,
         "Signature": signature,
         "Offsets": offsets,
-        "OffsetsAll": offset_findall
+        "OffsetsAll": offset_findall,
+        "Disassembly": disassembly
     }
 
-async def main():
+
+def main():
     # Ask user for the output file path
     path = api.ask_file(True, "*.json", "Output file for dump")
     if not path:
@@ -120,7 +143,7 @@ async def main():
         return
 
     # Get all functions in the IDA database
-    all_functions = await get_functions_async()
+    all_functions = get_functions()
 
     # Write the function information to the JSON file
     with open(path, "w") as out:
@@ -129,4 +152,4 @@ async def main():
     api.msg(f"\nDumped {len(all_functions)} functions to '{path}'")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()

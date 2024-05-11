@@ -1,0 +1,1148 @@
+{
+    "Input address": "0x142033f70",
+    "Inputted function names": [
+        "public: AABB::AABB(class Vec3 const &, class Vec3 const &)"
+    ],
+    "Xrefs": [
+        {
+            "Address": "0x1400051ad",
+            "Name": "FarmBlockConsts::_dynamic_initializer_for__FARM_BLOCK_VISUAL_SHAPE__"
+        },
+        {
+            "Address": "0x14000870d",
+            "Name": "FarmBlockConsts::_dynamic_initializer_for__FARM_BLOCK_VISUAL_SHAPE___0"
+        },
+        {
+            "Address": "0x1400107ea",
+            "Name": "SoulSandBlockUtils::_dynamic_initializer_for__SOUL_SAND_BLOCK_AABB__"
+        },
+        {
+            "Address": "0x14006828f",
+            "Name": "unity_55d3c8a3d6e7f66a0670d5a92e91ef98::_dynamic_initializer_for__LECTERN_SHAPE__"
+        },
+        {
+            "Address": "0x14006838d",
+            "Name": "MudBlockConsts::_dynamic_initializer_for__MUD_BLOCK_AABB__"
+        },
+        {
+            "Address": "0x140069eea",
+            "Name": "unity_1d9e72a61ceeb53a225105c6183b4d94::_dynamic_initializer_for__END_ROD_SHAPE__"
+        },
+        {
+            "Address": "0x140069f7d",
+            "Name": "FarmBlockConsts::_dynamic_initializer_for__FARM_BLOCK_VISUAL_SHAPE___1"
+        },
+        {
+            "Address": "0x14006a03d",
+            "Name": "GrassPathConsts::_dynamic_initializer_for__GRASS_PATH_BLOCK_VISUAL_SHAPE__"
+        },
+        {
+            "Address": "0x14007f9bd",
+            "Name": "FarmBlockConsts::_dynamic_initializer_for__FARM_BLOCK_VISUAL_SHAPE___2"
+        },
+        {
+            "Address": "0x14007fa4d",
+            "Name": "GrassPathConsts::_dynamic_initializer_for__GRASS_PATH_BLOCK_VISUAL_SHAPE___0"
+        },
+        {
+            "Address": "0x14007fe2d",
+            "Name": "MudBlockConsts::_dynamic_initializer_for__MUD_BLOCK_AABB___0"
+        },
+        {
+            "Address": "0x14008891d",
+            "Name": "FarmBlockConsts::_dynamic_initializer_for__FARM_BLOCK_VISUAL_SHAPE___3"
+        },
+        {
+            "Address": "0x1400a8b7c",
+            "Name": "PointedDripstoneBlockInternal::_dynamic_initializer_for__BASE_SHAPE__"
+        },
+        {
+            "Address": "0x1400a8c1c",
+            "Name": "PointedDripstoneBlockInternal::_dynamic_initializer_for__FRUSTUM_SHAPE__"
+        },
+        {
+            "Address": "0x1400a8f5c",
+            "Name": "PointedDripstoneBlockInternal::_dynamic_initializer_for__MIDDLE_SHAPE__"
+        },
+        {
+            "Address": "0x1400a8fbc",
+            "Name": "PointedDripstoneBlockInternal::_dynamic_initializer_for__TIP_MERGE_SHAPE__"
+        },
+        {
+            "Address": "0x1400a901a",
+            "Name": "PointedDripstoneBlockInternal::_dynamic_initializer_for__TIP_SHAPE_DOWN__"
+        },
+        {
+            "Address": "0x1400a907a",
+            "Name": "PointedDripstoneBlockInternal::_dynamic_initializer_for__TIP_SHAPE_UP__"
+        },
+        {
+            "Address": "0x1400aa39a",
+            "Name": "SoulSandBlockUtils::_dynamic_initializer_for__SOUL_SAND_BLOCK_AABB___1"
+        },
+        {
+            "Address": "0x140151287",
+            "Name": "_tickBurnsInDaylightComponent"
+        },
+        {
+            "Address": "0x1401b4089",
+            "Name": "?_moveToFreePartner@BreedGoal@@AEBAPEAVMob@@XZ"
+        },
+        {
+            "Address": "0x1401c1db7",
+            "Name": "?cloneAndGrow@AABB@@QEBA?AV1@AEBVVec3@@@Z"
+        },
+        {
+            "Address": "0x140215110",
+            "Name": "?_setWantedMob@SwimWithEntityGoal@@AEAA_NXZ"
+        },
+        {
+            "Address": "0x14021e87a",
+            "Name": "?canUse@TakeFlowerGoal@@UEAA_NXZ"
+        },
+        {
+            "Address": "0x14021ef66",
+            "Name": "?canUse@TradeInterestGoal@@UEAA_NXZ"
+        },
+        {
+            "Address": "0x140228381",
+            "Name": "?tick@SneezeGoal@@UEAAXXZ"
+        },
+        {
+            "Address": "0x14022a158",
+            "Name": "?tick@SwoopAttackGoal@@UEAAXXZ"
+        },
+        {
+            "Address": "0x14022a535",
+            "Name": "?tick@TemptGoal@@UEAAXXZ"
+        },
+        {
+            "Address": "0x140295d76",
+            "Name": "?tick@EndDragonFight@@QEAAXXZ"
+        },
+        {
+            "Address": "0x14029653c",
+            "Name": "?tick@EndGatewayBlockActor@@UEAAXAEAVBlockSource@@@Z"
+        },
+        {
+            "Address": "0x1402d1413",
+            "Name": "??0EndSpike@SpikeFeature@@QEAA@HHHH_N@Z"
+        },
+        {
+            "Address": "0x1403121db",
+            "Name": "?_useOn@EndCrystalItem@@EEBA?AVInteractionResult@@AEAVItemStack@@AEAVActor@@VBlockPos@@EAEBVVec3@@@Z"
+        },
+        {
+            "Address": "0x14033d897",
+            "Name": "?_clearGoalState@JumpToBlockGoal@@AEAAXXZ"
+        },
+        {
+            "Address": "0x14033e5de",
+            "Name": "?_findMate@MakeLoveGoal@@AEBAPEAVVillagerBase@@XZ"
+        },
+        {
+            "Address": "0x14033e8ad",
+            "Name": "?_findNewPartner@MingleGoal@@AEAAXUActorUniqueID@@@Z"
+        },
+        {
+            "Address": "0x140340602",
+            "Name": "?_setWantedMob@FollowMobGoal@@AEAA_NXZ"
+        },
+        {
+            "Address": "0x140348b91",
+            "Name": "?canUse@FollowParentGoal@@UEAA_NXZ"
+        },
+        {
+            "Address": "0x14034bce6",
+            "Name": "?getPOI@MoveToPOIGoal@@QEAA_NW4POIType@@@Z"
+        },
+        {
+            "Address": "0x14034d67e",
+            "Name": "?start@FindUnderwaterTreasureGoal@@UEAAXXZ"
+        },
+        {
+            "Address": "0x14034de34",
+            "Name": "?start@HoldGroundGoal@@UEAAXXZ"
+        },
+        {
+            "Address": "0x140351b8f",
+            "Name": "?tick@JumpToBlockGoal@@UEAAXXZ"
+        },
+        {
+            "Address": "0x140351f43",
+            "Name": "?tick@KnockbackRoarGoal@@UEAAXXZ"
+        },
+        {
+            "Address": "0x140352dd7",
+            "Name": "?tick@MeleeBoxAttackGoal@@UEAAXXZ"
+        },
+        {
+            "Address": "0x140364cba",
+            "Name": "?_detectsMobs@NapGoal@@AEBA_NXZ"
+        },
+        {
+            "Address": "0x140366752",
+            "Name": "?_hasSnackableItems@SnackGoal@@AEAA_NXZ"
+        },
+        {
+            "Address": "0x140371f60",
+            "Name": "?canUse@PlayGoal@@UEAA_NXZ"
+        },
+        {
+            "Address": "0x14037688a",
+            "Name": "?start@SnackGoal@@UEAAXXZ"
+        },
+        {
+            "Address": "0x1403810b9",
+            "Name": "?cloneAndSetBoundsAroundCenter@AABB@@QEBA?AV1@VVec3@@@Z"
+        },
+        {
+            "Address": "0x14038166c",
+            "Name": "?stop@JumpAroundTargetGoal@@UEAAXXZ"
+        },
+        {
+            "Address": "0x1404643db",
+            "Name": "?validTransition@TargetRelativeMovementGoalUtils@@YA_NAEBVAABB@@AEAVIBlockSource@@AEBVVec3@@2M@Z"
+        },
+        {
+            "Address": "0x140532602",
+            "Name": "?transformIfAble@TransformationComponent@@QEAAXAEAVActor@@_N@Z"
+        },
+        {
+            "Address": "0x140566c4e",
+            "Name": "?imitateNearbyMobs@ImitateMobSoundsComponent@@SA_NAEAVActor@@AEBVRandomize@@@Z"
+        },
+        {
+            "Address": "0x14059241e",
+            "Name": "?attach@BalloonableComponent@@AEAA_NAEAVActor@@0AEAVItemStack@@@Z"
+        },
+        {
+            "Address": "0x140592521",
+            "Name": "?attach@BalloonableComponent@@AEAA_NAEAVActor@@0AEAVItemStack@@@Z"
+        },
+        {
+            "Address": "0x14059e4cc",
+            "Name": "?getBalloonForActor@BalloonComponent@@SAPEAVActor@@AEBV2@@Z"
+        },
+        {
+            "Address": "0x14059ee84",
+            "Name": "?getInteraction@BalloonableComponent@@QEAA_NAEAVActor@@AEAVPlayer@@AEAVActorInteraction@@@Z"
+        },
+        {
+            "Address": "0x14059f9b1",
+            "Name": "?getSensorBox@EntitySensorUtils@@YA?AVAABB@@AEBVActor@@_NAEBVVec3@@@Z"
+        },
+        {
+            "Address": "0x1405cf8ba",
+            "Name": "?addAABB@HitboxDefinition@@QEAAXAEBUHitboxJson@@@Z"
+        },
+        {
+            "Address": "0x1405d6f96",
+            "Name": "?canJoinFlock@FlockingComponent@@QEBA_NAEAVActor@@@Z"
+        },
+        {
+            "Address": "0x1405d8c3a",
+            "Name": "?fromCompoundTag@HitboxComponent@@QEAAXAEBVCompoundTag@@@Z"
+        },
+        {
+            "Address": "0x1405de6df",
+            "Name": "?joinFlock@FlockingComponent@@QEAAXAEAVActor@@@Z"
+        },
+        {
+            "Address": "0x1405df1e2",
+            "Name": "?manageNeighborhood@FlockingComponent@@QEAAXAEAVActor@@@Z"
+        },
+        {
+            "Address": "0x1405df405",
+            "Name": "?manageNeighborhood@FlockingComponent@@QEAAXAEAVActor@@@Z"
+        },
+        {
+            "Address": "0x1405df639",
+            "Name": "?mergeNeighborhoods@FlockingComponent@@QEAAXAEAVActor@@@Z"
+        },
+        {
+            "Address": "0x1405e1767",
+            "Name": "?pullInItems@HopperComponent@@QEAA_NAEAVActor@@@Z"
+        },
+        {
+            "Address": "0x1405e5894",
+            "Name": "?tick@MobEffectComponent@@QEAAXAEAVActor@@@Z"
+        },
+        {
+            "Address": "0x14061ea18",
+            "Name": "?_tickActorUpdatePositionAndAABBSystem2@ActorSetPosSystemImpl@@YAXAEBUActorSetPositionRequestComponent@@AEBUOffsetsComponent@@AEAUAABBShapeComponent@@AEAUStateVectorComponent@@V?$Optional@V?$FlagComponent@UPaintingFlag@@@@@@@Z"
+        },
+        {
+            "Address": "0x14061f68a",
+            "Name": "?_tickComponent@AreaAttackSystem@@CAXAEAVActorOwnerComponent@@AEAVAreaAttackComponent@@@Z"
+        },
+        {
+            "Address": "0x1406296d4",
+            "Name": "?doOnHitEffect@FreezeOnHitSubcomponent@@UEAAXAEAVActor@@AEAVProjectileComponent@@@Z"
+        },
+        {
+            "Address": "0x14062becf",
+            "Name": "?doOnHitEffect@SplashPotionEffectSubcomponent@@UEAAXAEAVActor@@AEAVProjectileComponent@@@Z"
+        },
+        {
+            "Address": "0x140649b08",
+            "Name": "??$_tickFindDolphins@USpatialQueryUtility@@@DolphinBoostSystem@@SAXAEBVStrictEntityContext@@AEBUAABBShapeComponent@@AEBUDimensionTypeComponent@@AEAV?$ViewT@VStrictEntityContext@@U?$Include@V?$FlagComponent@UDolphinFlag@@@@@@@@V?$EntityModifier@V?$FlagComponent@UIsNearDolphinsFlag@@@@@@AEAULocalSpatialEntityFetcherFactoryComponent@@AEAVLocalSpatialEntityFetcher@@@Z"
+        },
+        {
+            "Address": "0x1406c5576",
+            "Name": "?getMaxCollisionVolume@AutoStepSystem@@YA?AVAABB@@AEBVVec3@@AEBUMaxAutoStepComponent@@AEBV2@@Z"
+        },
+        {
+            "Address": "0x1406dc38b",
+            "Name": "?tickNotifier@CollidableMobNotifierSystem@@SAXAEBVStrictEntityContext@@AEBUAABBShapeComponent@@AEBUDimensionTypeComponent@@V?$ViewT@VStrictEntityContext@@U?$Include@V?$FlagComponent@UMobFlag@@@@@@U?$Exclude@V?$FlagComponent@UActorFirstTick@@@@@@@@V?$ViewT@VStrictEntityContext@@U?$Include@V?$FlagComponent@UFallingBlockFlag@@@@@@@@V?$EntityModifier@V?$FlagComponent@UCollidableMobNearFlag@@@@@@AEAULocalSpatialEntityFetcherFactoryComponent@@AEAVLocalSpatialEntityFetcher@@@Z"
+        },
+        {
+            "Address": "0x1406dc4f7",
+            "Name": "?tickNotifier@CollidableMobNotifierSystem@@SAXAEBVStrictEntityContext@@AEBUAABBShapeComponent@@AEBUDimensionTypeComponent@@V?$ViewT@VStrictEntityContext@@U?$Include@V?$FlagComponent@UMobFlag@@@@@@U?$Exclude@V?$FlagComponent@UActorFirstTick@@@@@@@@V?$ViewT@VStrictEntityContext@@U?$Include@V?$FlagComponent@UFallingBlockFlag@@@@@@@@V?$EntityModifier@V?$FlagComponent@UCollidableMobNearFlag@@@@@@AEAULocalSpatialEntityFetcherFactoryComponent@@AEAVLocalSpatialEntityFetcher@@@Z"
+        },
+        {
+            "Address": "0x140723d00",
+            "Name": "?_liquidBlockFetch@LiquidPhysicsSystem@@YAXAEBVStrictEntityContext@@AEAUStateVectorComponent@@AEAUUpdateWaterStateRequestComponent@@AEBUAABBShapeComponent@@AEBUSubBBsComponent@@V?$Optional@$$CBV?$FlagComponent@UItemActorFlag@@@@@@AEAV?$vector@ULiquidBlockEntry@@V?$allocator@ULiquidBlockEntry@@@std@@@std@@AEBVIConstBlockSource@@@Z"
+        },
+        {
+            "Address": "0x1407446cb",
+            "Name": "?tickLookAtComponent@LookAtSystem@@SAXAEAVActorOwnerComponent@@AEAVLookAtComponent@@@Z"
+        },
+        {
+            "Address": "0x1407c2a8c",
+            "Name": "ViewT_StrictEntityContext_Include_FlagComponent_ActorMovementTickNeededFlag____DimensionTypeComponent_const__IsSolidMobComponent_const__AABBShapeComponent_const__::invokeWithTypes_DimensionTypeComponent_const__IsSolidMobComponent_const__AABBShapeComponent_const__std::tuple_DimensionTypeComponent_const_&_IsSolidMobComponent_const_&_AABBShapeComponent_const_&_FlagComponent_ActorMovementTickNeededFlag__&___lambda_609133898a17e9db734cbea5f6575a5d___"
+        },
+        {
+            "Address": "0x1407eb0de",
+            "Name": "?flagSolidMobsFromNearbyEntity@SolidMobSystem@@YAXAEBVStrictEntityContext@@AEBUAABBShapeComponent@@AEBV?$ViewT@VStrictEntityContext@@$$CBUIsSolidMobComponent@@$$CBUAABBShapeComponent@@@@AEAVLocalSpatialEntityFetcher@@V?$EntityModifier@UIsSolidMobNearbyComponent@@@@AEAV?$vector@VStrictEntityContext@@V?$allocator@VStrictEntityContext@@@std@@@std@@@Z"
+        },
+        {
+            "Address": "0x1408106f7",
+            "Name": "?ClearSpaceForStructure@StructureUtils@gametest@@YAXAEBVBoundingBox@@HAEAVBlockSource@@@Z"
+        },
+        {
+            "Address": "0x1408112e2",
+            "Name": "?FindStructureBlocks@StructureUtils@gametest@@YA?AV?$vector@VBlockPos@@V?$allocator@VBlockPos@@@std@@@std@@AEBVBlockPos@@HAEAVBlockSource@@@Z"
+        },
+        {
+            "Address": "0x140811bf6",
+            "Name": "?GetStructureBounds@StructureUtils@gametest@@YA?AVAABB@@AEBVStructureBlockActor@@@Z"
+        },
+        {
+            "Address": "0x14081c8c4",
+            "Name": "?getStructureBounds@MinecraftGameTestInstance@@UEBA?AV?$optional@VAABB@@@std@@XZ"
+        },
+        {
+            "Address": "0x14095b056",
+            "Name": "?assertEntityPresent@MinecraftGameTestHelper@@UEAA?AV?$optional@UGameTestError@gametest@@@std@@AEBUActorDefinitionIdentifier@@AEBVBlockPos@@M_N@Z"
+        },
+        {
+            "Address": "0x14095bd7d",
+            "Name": "?assertItemEntityCountIs@MinecraftGameTestHelper@@UEAA?AV?$optional@UGameTestError@gametest@@@std@@AEBVItem@@AEBVBlockPos@@MH@Z"
+        },
+        {
+            "Address": "0x14095c036",
+            "Name": "?assertItemEntityPresent@MinecraftGameTestHelper@@UEAA?AV?$optional@UGameTestError@gametest@@@std@@AEBVItem@@AEBVBlockPos@@M_N@Z"
+        },
+        {
+            "Address": "0x140972415",
+            "Name": "?forEachBlockInAABB@SpatialQueryUtility@@SA_NAEBVIConstBlockSource@@AEBVAABB@@MAEBV?$function@$$A6AXAEBVBlock@@AEBVBlockPos@@@Z@std@@@Z"
+        },
+        {
+            "Address": "0x140974008",
+            "Name": "?isDoorBlockingPath@NavigationUtility@@YA_NAEBVMob@@AEBVBlock@@AEBVPath@@AEBVBlockPos@@_K@Z"
+        },
+        {
+            "Address": "0x140974157",
+            "Name": "?isInNode@NavigationUtility@@YA_NAEBVMob@@AEBVBlockPos@@@Z"
+        },
+        {
+            "Address": "0x140a1cb1b",
+            "Name": "?_tickProjectileComponent@ProjectileSystem@@SAXPEAVActor@@AEAVProjectileComponent@@@Z"
+        },
+        {
+            "Address": "0x140a1cc0c",
+            "Name": "?_tickProjectileComponent@ProjectileSystem@@SAXPEAVActor@@AEAVProjectileComponent@@@Z"
+        },
+        {
+            "Address": "0x140a1d065",
+            "Name": "?_tickProjectileComponent@ProjectileSystem@@SAXPEAVActor@@AEAVProjectileComponent@@@Z"
+        },
+        {
+            "Address": "0x140a1d8a7",
+            "Name": "?_tickProjectileComponent@ProjectileSystem@@SAXPEAVActor@@AEAVProjectileComponent@@@Z"
+        },
+        {
+            "Address": "0x140a24eb4",
+            "Name": "?fetchCollisionShapes@MoveCollisionSystem@@YAXAEBVStrictEntityContext@@AEBUAABBShapeComponent@@AEBUMaxAutoStepComponent@@AEBUActorDataFlagComponent@@V?$Optional@$$CBV?$FlagComponent@UCollidableMobNearFlag@@@@@@AEAUMoveRequestComponent@@AEBV?$ViewT@VStrictEntityContext@@U?$Include@V?$FlagComponent@UCollidableMobFlag@@@@@@$$CBUAABBShapeComponent@@@@AEBV?$ViewT@VStrictEntityContext@@$$CBUAABBShapeComponent@@$$CBUActorDataFlagComponent@@@@AEBV?$ViewT@VStrictEntityContext@@U?$Include@V?$FlagComponent@UFallingBlockFlag@@@@@@@@AEBVIConstBlockSource@@AEAVLocalSpatialEntityFetcher@@AEBVGetCollisionShapeInterface@@AEAV?$vector@UCollisionShape@BlockSourceVisitor@@V?$allocator@UCollisionShape@BlockSourceVisitor@@@std@@@std@@@Z"
+        },
+        {
+            "Address": "0x140a24fe3",
+            "Name": "?fetchCollisionShapes@MoveCollisionSystem@@YAXAEBVStrictEntityContext@@AEBUAABBShapeComponent@@AEBUMaxAutoStepComponent@@AEBUActorDataFlagComponent@@V?$Optional@$$CBV?$FlagComponent@UCollidableMobNearFlag@@@@@@AEAUMoveRequestComponent@@AEBV?$ViewT@VStrictEntityContext@@U?$Include@V?$FlagComponent@UCollidableMobFlag@@@@@@$$CBUAABBShapeComponent@@@@AEBV?$ViewT@VStrictEntityContext@@$$CBUAABBShapeComponent@@$$CBUActorDataFlagComponent@@@@AEBV?$ViewT@VStrictEntityContext@@U?$Include@V?$FlagComponent@UFallingBlockFlag@@@@@@@@AEBVIConstBlockSource@@AEAVLocalSpatialEntityFetcher@@AEBVGetCollisionShapeInterface@@AEAV?$vector@UCollisionShape@BlockSourceVisitor@@V?$allocator@UCollisionShape@BlockSourceVisitor@@@std@@@std@@@Z"
+        },
+        {
+            "Address": "0x140a36c9b",
+            "Name": "?getFetchBoxSubtraction@MoveCollisionSystem@@YA?AV?$vector@VAABB@@V?$allocator@VAABB@@@std@@@std@@AEBVAABB@@0@Z"
+        },
+        {
+            "Address": "0x140ac0ccd",
+            "Name": "?climbOutOfLiquid@MobMovementClimbOutOfLiquid@@YAXAEBVStrictEntityContext@@AEBUAABBShapeComponent@@AEBUMobTravelComponent@@AEAUStateVectorComponent@@AEBVIConstBlockSource@@@Z"
+        },
+        {
+            "Address": "0x140ac0e9e",
+            "Name": "?cloneAndAddAABB@AABB@@QEBA?AV1@AEBV1@@Z"
+        },
+        {
+            "Address": "0x140ae68d1",
+            "Name": "?getMaxCollisionVolume@SneakMovementSystem@@YA?AVAABB@@AEBVVec3@@AEBUMaxAutoStepComponent@@AEBUAABBShapeComponent@@@Z"
+        },
+        {
+            "Address": "0x140ae692c",
+            "Name": "?getMaxCollisionVolume@SneakMovementSystem@@YA?AVAABB@@AEBVVec3@@AEBUMaxAutoStepComponent@@AEBUAABBShapeComponent@@@Z"
+        },
+        {
+            "Address": "0x140ae699f",
+            "Name": "?getMaxCollisionVolume@SneakMovementSystem@@YA?AVAABB@@AEBVVec3@@AEBUMaxAutoStepComponent@@AEBUAABBShapeComponent@@@Z"
+        },
+        {
+            "Address": "0x140afe288",
+            "Name": "?tickSneakMovementSystem@SneakMovementSystem@@YAXAEBUActorDataFlagComponent@@AEBUAABBShapeComponent@@AEBUMaxAutoStepComponent@@V?$Optional@$$CBUMoveInputComponent@@@@V?$Optional@$$CBV?$FlagComponent@UOnGroundFlag@@@@@@AEAUMoveRequestComponent@@AEAUStateVectorComponent@@@Z"
+        },
+        {
+            "Address": "0x140afe34a",
+            "Name": "?tickSneakMovementSystem@SneakMovementSystem@@YAXAEBUActorDataFlagComponent@@AEBUAABBShapeComponent@@AEBUMaxAutoStepComponent@@V?$Optional@$$CBUMoveInputComponent@@@@V?$Optional@$$CBV?$FlagComponent@UOnGroundFlag@@@@@@AEAUMoveRequestComponent@@AEAUStateVectorComponent@@@Z"
+        },
+        {
+            "Address": "0x140afe417",
+            "Name": "?tickSneakMovementSystem@SneakMovementSystem@@YAXAEBUActorDataFlagComponent@@AEBUAABBShapeComponent@@AEBUMaxAutoStepComponent@@V?$Optional@$$CBUMoveInputComponent@@@@V?$Optional@$$CBV?$FlagComponent@UOnGroundFlag@@@@@@AEAUMoveRequestComponent@@AEAUStateVectorComponent@@@Z"
+        },
+        {
+            "Address": "0x140bf00e0",
+            "Name": "?execute@CloneCommand@@UEBAXAEBVCommandOrigin@@AEAVCommandOutput@@@Z"
+        },
+        {
+            "Address": "0x140bf0173",
+            "Name": "?execute@CloneCommand@@UEBAXAEBVCommandOrigin@@AEAVCommandOutput@@@Z"
+        },
+        {
+            "Address": "0x140e5097f",
+            "Name": "?getEntitiesFromRay@ScriptRaycasting@ScriptModuleMinecraft@@YA?AV?$vector@UEntityHitInfo@ScriptRaycasting@ScriptModuleMinecraft@@V?$allocator@UEntityHitInfo@ScriptRaycasting@ScriptModuleMinecraft@@@std@@@std@@AEAVBlockSource@@AEBVVec3@@1AEBUScriptEntityRaycastOptions@2@V?$optional@PEBVActor@@@4@@Z"
+        },
+        {
+            "Address": "0x140e50b20",
+            "Name": "?getEntitiesFromRay@ScriptRaycasting@ScriptModuleMinecraft@@YA?AV?$vector@UEntityHitInfo@ScriptRaycasting@ScriptModuleMinecraft@@V?$allocator@UEntityHitInfo@ScriptRaycasting@ScriptModuleMinecraft@@@std@@@std@@AEAVBlockSource@@AEBVVec3@@1AEBUScriptEntityRaycastOptions@2@V?$optional@PEBVActor@@@4@@Z"
+        },
+        {
+            "Address": "0x140e50d7b",
+            "Name": "?getEntitiesFromRay@ScriptRaycasting@ScriptModuleMinecraft@@YA?AV?$vector@UEntityHitInfo@ScriptRaycasting@ScriptModuleMinecraft@@V?$allocator@UEntityHitInfo@ScriptRaycasting@ScriptModuleMinecraft@@@std@@@std@@AEAVBlockSource@@AEBVVec3@@1AEBUScriptEntityRaycastOptions@2@V?$optional@PEBVActor@@@4@@Z"
+        },
+        {
+            "Address": "0x14158b082",
+            "Name": "?isDangerousSpawn@SpreadPlayersCommand@@SA_NAEAVBlockSource@@AEBVBlockPos@@FH@Z"
+        },
+        {
+            "Address": "0x1415e09c4",
+            "Name": "?execute@TestForBlocksCommand@@UEBAXAEBVCommandOrigin@@AEAVCommandOutput@@@Z"
+        },
+        {
+            "Address": "0x1415e0a5b",
+            "Name": "?execute@TestForBlocksCommand@@UEBAXAEBVCommandOrigin@@AEAVCommandOutput@@@Z"
+        },
+        {
+            "Address": "0x141833f25",
+            "Name": "?_isInsideBorderBlock@WallClimberPathNavigation@@AEBA_NAEBVAABB@@AEBVBlockSource@@M@Z"
+        },
+        {
+            "Address": "0x141834071",
+            "Name": "?_isInsideBorderBlock@WallClimberPathNavigation@@AEBA_NAEBVAABB@@AEBVBlockSource@@M@Z"
+        },
+        {
+            "Address": "0x141836f45",
+            "Name": "?_selectBestSpell@SendEventGoal@@AEAAHXZ"
+        },
+        {
+            "Address": "0x14183741d",
+            "Name": "?_selectBestSpell@SummonActorGoal@@AEBAHAEAVActor@@@Z"
+        },
+        {
+            "Address": "0x141856a9e",
+            "Name": "?_calculateAABB@HangingActor@@IEAAXXZ"
+        },
+        {
+            "Address": "0x14185863a",
+            "Name": "?_getContainersAt@Hopper@@IEAA?AV?$vector@PEAVContainer@@V?$allocator@PEAVContainer@@@std@@@std@@AEAVBlockSource@@AEBVVec3@@@Z"
+        },
+        {
+            "Address": "0x141858f40",
+            "Name": "?_hitCheck@FishingHook@@IEAA?AVHitResult@@XZ"
+        },
+        {
+            "Address": "0x1418591a0",
+            "Name": "?_hitCheck@FishingHook@@IEAA?AVHitResult@@XZ"
+        },
+        {
+            "Address": "0x14185bf83",
+            "Name": "?_serverLured@FishingHook@@IEAA_NXZ"
+        },
+        {
+            "Address": "0x14185c6ad",
+            "Name": "?_tryAddItemsFromPos@Hopper@@AEAA_NAEAVBlockSource@@AEAVContainer@@AEBVVec3@@@Z"
+        },
+        {
+            "Address": "0x141861f87",
+            "Name": "?findKnotAt@@YAPEAVLeashFenceKnotActor@@AEAVBlockSource@@AEBVBlockPos@@@Z"
+        },
+        {
+            "Address": "0x14186cdcd",
+            "Name": "?reloadHardcoded@LeashFenceKnotActor@@UEAAXW4ActorInitializationMethod@@AEBVVariantParameterList@@@Z"
+        },
+        {
+            "Address": "0x141888297",
+            "Name": "?_damageNearbyMobs@Actor@@AEAAXXZ"
+        },
+        {
+            "Address": "0x14189224a",
+            "Name": "?fetchNearbyActorsSorted@Actor@@QEAA?AV?$vector@UDistanceSortedActor@@V?$allocator@UDistanceSortedActor@@@std@@@std@@AEBVVec3@@W4ActorType@@@Z"
+        },
+        {
+            "Address": "0x14189255f",
+            "Name": "?forEachLeashedActor@Actor@@QEBAXV?$function@$$A6AXV?$not_null@PEAVActor@@@gsl@@@Z@std@@@Z"
+        },
+        {
+            "Address": "0x1418a89c5",
+            "Name": "?setLastHitBB@Actor@@QEAAXAEBVVec3@@0@Z"
+        },
+        {
+            "Address": "0x1418b3740",
+            "Name": "Util::Agent::_attemptMoveStep"
+        },
+        {
+            "Address": "0x1418bcaf7",
+            "Name": "?execute@CollectCommand@AgentCommands@@UEAAXXZ"
+        },
+        {
+            "Address": "0x1418bfcb4",
+            "Name": "?getNextBlock@Agent@Util@@YA?AUBlockQueryResult@AgentComponents@@AEAVBlockSource@@VVec3@@MW4Direction@4@@Z"
+        },
+        {
+            "Address": "0x1418c0179",
+            "Name": "?getNextBlockSweep@Agent@Util@@YA?AUBlockQueryResult@AgentComponents@@AEAVBlockSource@@VVec3@@MW4Direction@4@@Z"
+        },
+        {
+            "Address": "0x1418c32b8",
+            "Name": "?isDone@AttackCommand@AgentCommands@@UEAA_NXZ"
+        },
+        {
+            "Address": "0x1418c4fc3",
+            "Name": "?pushActors@Mob@@UEAAXXZ"
+        },
+        {
+            "Address": "0x1418c5249",
+            "Name": "?pushActors@Mob@@UEAAXXZ"
+        },
+        {
+            "Address": "0x1418de74d",
+            "Name": "?checkNeedAutoJump@Player@@SA_NAEBVIConstBlockSource@@AEBUAABBShapeComponent@@AEBUActorRotationComponent@@MAEBUStateVectorComponent@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@MM@Z"
+        },
+        {
+            "Address": "0x1418e0907",
+            "Name": "?fireDimensionChangedEvent@Player@@QEAAXV?$AutomaticID@VDimension@@H@@0@Z"
+        },
+        {
+            "Address": "0x1418e25fd",
+            "Name": "?getPickupArea@Player@@QEBA?AVAABB@@XZ"
+        },
+        {
+            "Address": "0x1418e26bd",
+            "Name": "?getPickupArea@Player@@QEBA?AVAABB@@XZ"
+        },
+        {
+            "Address": "0x1418feeeb",
+            "Name": "std::_Func_impl_no_alloc__lambda_c127222a1a2c22b3e7672556e71851bc__bool_BlockPos_::_Do_call"
+        },
+        {
+            "Address": "0x1418ff821",
+            "Name": "std::_Func_impl_no_alloc__lambda_c0733ebcd88aa50f0e49c09c38a5a83e__bool_Player_&_::_Do_call"
+        },
+        {
+            "Address": "0x141902e39",
+            "Name": "?_getAdjustedAABBForSpawnCheck@Axolotl@@UEBA?AVAABB@@AEBV2@AEBVVec3@@@Z"
+        },
+        {
+            "Address": "0x1419088b0",
+            "Name": "?_spawnPassiveDwellers@Village@@AEAAXAEAVBlockSource@@H@Z"
+        },
+        {
+            "Address": "0x1419188f3",
+            "Name": "?triggerRaid@Village@@QEAAXXZ"
+        },
+        {
+            "Address": "0x141918fac",
+            "Name": "?updateEntitySpecificMolangVariables@Cat@@UEAAXAEAVRenderParams@@@Z"
+        },
+        {
+            "Address": "0x14191a4ca",
+            "Name": "?withinVillageBounds@Village@@QEBA_NAEBVVec3@@M@Z"
+        },
+        {
+            "Address": "0x141938ff7",
+            "Name": "?normalTick@EvocationFang@@UEAAXXZ"
+        },
+        {
+            "Address": "0x14196fc42",
+            "Name": "_lambda_f1c666fb11b8f18b457ca6b667a38179_::operator()"
+        },
+        {
+            "Address": "0x14196fcde",
+            "Name": "_lambda_f1c666fb11b8f18b457ca6b667a38179_::operator()"
+        },
+        {
+            "Address": "0x14197101c",
+            "Name": "?_checkCrystals@EnderDragon@@AEAAXXZ"
+        },
+        {
+            "Address": "0x14197415c",
+            "Name": "?_isPosOccupiedByOtherShulker@Shulker@@AEBA_NVBlockPos@@@Z"
+        },
+        {
+            "Address": "0x1419741d5",
+            "Name": "?_isPosOccupiedByOtherShulker@Shulker@@AEBA_NVBlockPos@@@Z"
+        },
+        {
+            "Address": "0x14197596f",
+            "Name": "?_trySpawnShulker@Shulker@@AEAAXXZ"
+        },
+        {
+            "Address": "0x141979204",
+            "Name": "?dealExplosionDamage@FireworksRocketActor@@AEAAXXZ"
+        },
+        {
+            "Address": "0x1419799c7",
+            "Name": "?destroy@ChestBoat@@UEAAXPEAVActor@@@Z"
+        },
+        {
+            "Address": "0x141979a3a",
+            "Name": "?destroy@ChestBoat@@UEAAXPEAVActor@@@Z"
+        },
+        {
+            "Address": "0x14197a28a",
+            "Name": "?destroy@MinecartChest@@UEAAXAEBVActorDamageSource@@_N@Z"
+        },
+        {
+            "Address": "0x14197a2fe",
+            "Name": "?destroy@MinecartChest@@UEAAXAEBVActorDamageSource@@_N@Z"
+        },
+        {
+            "Address": "0x141981a9f",
+            "Name": "?postAiStep@EnderDragon@@QEAAXXZ"
+        },
+        {
+            "Address": "0x141981b7e",
+            "Name": "?postAiStep@EnderDragon@@QEAAXXZ"
+        },
+        {
+            "Address": "0x141981c53",
+            "Name": "?postAiStep@EnderDragon@@QEAAXXZ"
+        },
+        {
+            "Address": "0x141981d0c",
+            "Name": "?postAiStep@EnderDragon@@QEAAXXZ"
+        },
+        {
+            "Address": "0x141982f90",
+            "Name": "?postNormalTick@ItemActor@@QEAAXXZ"
+        },
+        {
+            "Address": "0x141983512",
+            "Name": "?postNormalTick@Minecart@@QEAAXAEBVBlockPos@@@Z"
+        },
+        {
+            "Address": "0x14198d1ee",
+            "Name": "?newServerAiStep@WitherBoss@@UEAAXXZ"
+        },
+        {
+            "Address": "0x14198d5eb",
+            "Name": "?newServerAiStep@WitherBoss@@UEAAXXZ"
+        },
+        {
+            "Address": "0x14198d789",
+            "Name": "?newServerAiStep@WitherBoss@@UEAAXXZ"
+        },
+        {
+            "Address": "0x1419bb1c4",
+            "Name": "?tick@FindActorNode@@UEAA?AW4BehaviorStatus@@AEAVActor@@@Z"
+        },
+        {
+            "Address": "0x1419bc730",
+            "Name": "?tick@LookAtActorNode@@UEAA?AW4BehaviorStatus@@AEAVActor@@@Z"
+        },
+        {
+            "Address": "0x1419f32c4",
+            "Name": "?removeMisalignedPortalRecords@PortalForcer@@QEAAXAEAVBlockSource@@AEBVPortalShape@@AEBVPortalRecord@@@Z"
+        },
+        {
+            "Address": "0x141a44d08",
+            "Name": "??$addUnloadedChunksAABBs@UDefaultVisitor@BlockSourceVisitor@@@BlockSourceVisitor@@YAXAEBVBlockSource@@AEAUDefaultVisitor@0@AEBVAABB@@@Z"
+        },
+        {
+            "Address": "0x141a44fd7",
+            "Name": "??$addUnloadedChunksAABBs@UMoveCollisionVisitor@BlockSourceVisitor@@@BlockSourceVisitor@@YAXAEBVBlockSource@@AEAUMoveCollisionVisitor@0@AEBVAABB@@@Z"
+        },
+        {
+            "Address": "0x141a4d6dd",
+            "Name": "?_getActorsInRange@Explosion@@AEBA?AV?$vector@V?$not_null@PEAVActor@@@gsl@@V?$allocator@V?$not_null@PEAVActor@@@gsl@@@std@@@std@@PEAVActor@@M@Z"
+        },
+        {
+            "Address": "0x141a4fd23",
+            "Name": "?addUnloadedChunksAABBs@BlockSource@@IEBAXAEAV?$vector@VAABB@@V?$allocator@VAABB@@@std@@@std@@AEBVAABB@@@Z"
+        },
+        {
+            "Address": "0x141a52fee",
+            "Name": "?clip@ClipUtils@@YA?AVHitResult@@AEBVBlockPos@@AEBVVec3@@1AEBVAABB@@@Z"
+        },
+        {
+            "Address": "0x141a5c9f5",
+            "Name": "?getTallestCollisionShapeFromUnloadedChunksAABBs@BlockSource@@IEBAXAEBVAABB@@AEAV2@AEBVVec3@@AEAM@Z"
+        },
+        {
+            "Address": "0x141a5ee8c",
+            "Name": "?isNearUnloadedChunks@BlockSource@@QEBA_NAEBVChunkPos@@@Z"
+        },
+        {
+            "Address": "0x141a68a79",
+            "Name": "?tick@BaseMobSpawner@@UEAAXAEAVBlockSource@@@Z"
+        },
+        {
+            "Address": "0x141a68af1",
+            "Name": "?tick@BaseMobSpawner@@UEAAXAEAVBlockSource@@@Z"
+        },
+        {
+            "Address": "0x141a88b2c",
+            "Name": "?_shapeFromDirection@AmethystClusterBlock@@AEBA?AVAABB@@H@Z"
+        },
+        {
+            "Address": "0x141a88baa",
+            "Name": "?_shapeFromDirection@AmethystClusterBlock@@AEBA?AVAABB@@H@Z"
+        },
+        {
+            "Address": "0x141aa8da3",
+            "Name": "?_useOn@MinecartItem@@EEBA?AVInteractionResult@@AEAVItemStack@@AEAVActor@@VBlockPos@@EAEBVVec3@@@Z"
+        },
+        {
+            "Address": "0x141aac9f1",
+            "Name": "?canBindPlayerMobs@LeadItem@@SA_NAEBVActor@@AEBVBlockPos@@@Z"
+        },
+        {
+            "Address": "0x141aaf91b",
+            "Name": "?dispense@Item@@UEBA_NAEAVBlockSource@@AEAVContainer@@HAEBVVec3@@E@Z"
+        },
+        {
+            "Address": "0x141ad29cf",
+            "Name": "?getCollisionShape@HoneyBlock@@UEBA?AVAABB@@AEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x141ad2a6f",
+            "Name": "?getCollisionShape@MobSpawnerBlock@@UEBA?AVAABB@@AEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x141ad2b0f",
+            "Name": "?getCollisionShape@MudBlock@@UEBA?AVAABB@@AEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x141ad5d4c",
+            "Name": "?getVisualShape@MangrovePropaguleBlock@@UEBAAEBVAABB@@AEBVBlock@@AEAV2@@Z"
+        },
+        {
+            "Address": "0x141ada745",
+            "Name": "?randomTick@LeavesBlock@@UEBAXAEAVBlockSource@@AEBVBlockPos@@AEAVRandom@@@Z"
+        },
+        {
+            "Address": "0x141ada7c1",
+            "Name": "?randomTick@LeavesBlock@@UEBAXAEAVBlockSource@@AEBVBlockPos@@AEAVRandom@@@Z"
+        },
+        {
+            "Address": "0x141adba0e",
+            "Name": "?runDecay@LeavesBlock@@SAXAEAVBlockSource@@AEBVBlockPos@@H@Z"
+        },
+        {
+            "Address": "0x141adba82",
+            "Name": "?runDecay@LeavesBlock@@SAXAEAVBlockSource@@AEBVBlockPos@@H@Z"
+        },
+        {
+            "Address": "0x141ae6901",
+            "Name": "?_useOn@ArmorStandItem@@UEBA?AVInteractionResult@@AEAVItemStack@@AEAVActor@@VBlockPos@@EAEBVVec3@@@Z"
+        },
+        {
+            "Address": "0x141ae9e11",
+            "Name": "?dispenseArmor@ArmorItem@@SA_NAEAVBlockSource@@AEAVContainer@@HAEBVVec3@@EW4ArmorSlot@@@Z"
+        },
+        {
+            "Address": "0x141b0fa0c",
+            "Name": "?clip@Block@@QEBA?AVHitResult@@AEBVBlockPos@@AEBVVec3@@1AEBVAABB@@@Z"
+        },
+        {
+            "Address": "0x141b0fb06",
+            "Name": "?clip@Block@@QEBA?AVHitResult@@AEBVBlockSource@@AEBVBlockPos@@AEBVVec3@@2W4ShapeType@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x141b15adb",
+            "Name": "?getCollisionShape@BigDripleafBlock@@UEBA?AVAABB@@AEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x141b15e98",
+            "Name": "?getCollisionShape@BlockLegacy@@UEBA?AVAABB@@AEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x141b15f81",
+            "Name": "?getCollisionShape@BlockLegacy@@UEBA?AVAABB@@AEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x141b16f47",
+            "Name": "?getLiquidClipVolume@BlockLegacy@@UEBA_NAEBVBlock@@AEAVBlockSource@@AEBVBlockPos@@AEAVAABB@@@Z"
+        },
+        {
+            "Address": "0x141b17e4b",
+            "Name": "?getOutline@BlockLegacy@@UEBAAEBVAABB@@AEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@AEAV2@@Z"
+        },
+        {
+            "Address": "0x141b17f32",
+            "Name": "?getOutline@BlockLegacy@@UEBAAEBVAABB@@AEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@AEAV2@@Z"
+        },
+        {
+            "Address": "0x141b21008",
+            "Name": "?shouldStopFalling@BlockLegacy@@UEBA_NAEAVActor@@@Z"
+        },
+        {
+            "Address": "0x141b32fad",
+            "Name": "?entityInside@DoorBlock@@UEBAXAEAVBlockSource@@AEBVBlockPos@@AEAVActor@@@Z"
+        },
+        {
+            "Address": "0x141b330f1",
+            "Name": "?entityInside@EndPortalBlock@@UEBAXAEAVBlockSource@@AEBVBlockPos@@AEAVActor@@@Z"
+        },
+        {
+            "Address": "0x141b33dcf",
+            "Name": "?getCollisionShape@DirtPathBlock@@UEBA?AVAABB@@AEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x141b33f8f",
+            "Name": "?getCollisionShape@FarmBlock@@UEBA?AVAABB@@AEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x141b4b70c",
+            "Name": "?_tryPlace@CameraItemComponentLegacy@@AEBA?AW4UseAction@1@AEBVItemStack@@AEAVActor@@AEBVBlockPos@@EAEAVVec3@@@Z"
+        },
+        {
+            "Address": "0x141b4d2a5",
+            "Name": "?_useOn@BoatItem@@EEBA?AVInteractionResult@@AEAVItemStack@@AEAVActor@@VBlockPos@@EAEBVVec3@@@Z"
+        },
+        {
+            "Address": "0x141b4d715",
+            "Name": "?_useOn@BottleItem@@EEBA?AVInteractionResult@@AEAVItemStack@@AEAVActor@@VBlockPos@@EAEBVVec3@@@Z"
+        },
+        {
+            "Address": "0x141b59121",
+            "Name": "?dispense@BrushItem@@UEBA_NAEAVBlockSource@@AEAVContainer@@HAEBVVec3@@E@Z"
+        },
+        {
+            "Address": "0x141b5ab8e",
+            "Name": "?dispense@HorseArmorItem@@UEBA_NAEAVBlockSource@@AEAVContainer@@HAEBVVec3@@E@Z"
+        },
+        {
+            "Address": "0x141c1f032",
+            "Name": "?dispense@SaddleItem@@UEBA_NAEAVBlockSource@@AEAVContainer@@HAEBVVec3@@E@Z"
+        },
+        {
+            "Address": "0x141c1f444",
+            "Name": "?dispense@ShearsItem@@UEBA_NAEAVBlockSource@@AEAVContainer@@HAEBVVec3@@E@Z"
+        },
+        {
+            "Address": "0x141c1f7f4",
+            "Name": "?dispense@ShieldItem@@UEBA_NAEAVBlockSource@@AEAVContainer@@HAEBVVec3@@E@Z"
+        },
+        {
+            "Address": "0x141cccbb4",
+            "Name": "?dispense@WearableItemComponent@@QEBA_NAEAVBlockSource@@AEAVContainer@@HAEBVVec3@@E@Z"
+        },
+        {
+            "Address": "0x141ceec71",
+            "Name": "?addAABBs@BrewingStandBlock@@UEBAXAEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@PEBVAABB@@AEAV?$vector@VAABB@@V?$allocator@VAABB@@@std@@@std@@@Z"
+        },
+        {
+            "Address": "0x141ceef35",
+            "Name": "?addAABBs@CauldronBlock@@UEBAXAEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@PEBVAABB@@AEAV?$vector@VAABB@@V?$allocator@VAABB@@@std@@@std@@@Z"
+        },
+        {
+            "Address": "0x141cef30b",
+            "Name": "?addAABBs@ComposterBlock@@UEBAXAEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@PEBVAABB@@AEAV?$vector@VAABB@@V?$allocator@VAABB@@@std@@@std@@@Z"
+        },
+        {
+            "Address": "0x141cf5217",
+            "Name": "?dispense@ChestBlock@@UEBA_NAEAVBlockSource@@AEAVContainer@@HAEBVVec3@@E@Z"
+        },
+        {
+            "Address": "0x141cf6a39",
+            "Name": "?fromPoints@AABB@@SA?AV1@AEBVVec3@@0@Z"
+        },
+        {
+            "Address": "0x141db5a0b",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db5a49",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db5a87",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db5ac5",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db5b03",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db5b41",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db5ba5",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db5be3",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db5c21",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db5c5f",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db5c9d",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db5cdb",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db5d39",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db5d71",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db5da9",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db5de1",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db5e19",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db5e51",
+            "Name": "?_getCollisions@PistonArmBlock@@AEBAXAEAVAABB@@00E@Z"
+        },
+        {
+            "Address": "0x141db6a13",
+            "Name": "?addCollisionShapes@PistonArmBlock@@UEBA_NAEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@PEBVAABB@@AEAV?$vector@VAABB@@V?$allocator@VAABB@@@std@@@std@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x141db6a93",
+            "Name": "?addCollisionShapes@PistonArmBlock@@UEBA_NAEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@PEBVAABB@@AEAV?$vector@VAABB@@V?$allocator@VAABB@@@std@@@std@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x141db6b0a",
+            "Name": "?addCollisionShapes@PistonArmBlock@@UEBA_NAEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@PEBVAABB@@AEAV?$vector@VAABB@@V?$allocator@VAABB@@@std@@@std@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x141dd5c9a",
+            "Name": "?hurtActor@MaceItem@@UEBAXAEAVItemStack@@AEAVActor@@AEAVMob@@@Z"
+        },
+        {
+            "Address": "0x141fde9e8",
+            "Name": "?computeAABBFromOriginAndSize@BlockSelectionBoxUtil@@YA?AVAABB@@AEBVVec3@@0@Z"
+        },
+        {
+            "Address": "0x141fec63b",
+            "Name": "?initializeComponent@BlockSelectionBoxDescription@@UEBAXAEAVBlockComponentStorage@@@Z"
+        },
+        {
+            "Address": "0x142018f28",
+            "Name": "?_isFreeStartNode@PathFinder@@AEAA?AW4NodeType@@AEBUActorPathingData@@AEBVAABB@@AEBVBlockPos@@2@Z"
+        },
+        {
+            "Address": "0x14207cb10",
+            "Name": "?findLightningTarget@LevelChunk@@QEAA?AVVec3@@AEBVBlockPos@@AEAVBlockSource@@@Z"
+        },
+        {
+            "Address": "0x14208732f",
+            "Name": "?tick@LevelChunk@@QEAAXAEAVBlockSource@@AEBUTick@@@Z"
+        },
+        {
+            "Address": "0x14208b4d5",
+            "Name": "??0BlockActor@@QEAA@W4BlockActorType@@AEBVBlockPos@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z"
+        },
+        {
+            "Address": "0x142097e50",
+            "Name": "?getContainerAt@DropperBlockActor@@SAPEAVContainer@@AEAVBlockSource@@AEBVVec3@@@Z"
+        },
+        {
+            "Address": "0x14209a587",
+            "Name": "?getObstructionAABB@ChestBlockActor@@MEBA?AVAABB@@XZ"
+        },
+        {
+            "Address": "0x14209a601",
+            "Name": "?getObstructionAABB@ChestBlockActor@@MEBA?AVAABB@@XZ"
+        },
+        {
+            "Address": "0x14209e4ab",
+            "Name": "?onChanged@ChalkboardBlockActor@@UEAAXAEAVBlockSource@@@Z"
+        },
+        {
+            "Address": "0x14209e5d0",
+            "Name": "?onChanged@ChalkboardBlockActor@@UEAAXAEAVBlockSource@@@Z"
+        },
+        {
+            "Address": "0x14209f15e",
+            "Name": "?pairWith@ChestBlockActor@@QEAAXPEAV1@_N@Z"
+        },
+        {
+            "Address": "0x1420a053f",
+            "Name": "?ring@BellBlockActor@@QEAA_NW4Type@Direction@@AEAVBlockSource@@PEAVActor@@_N@Z"
+        },
+        {
+            "Address": "0x1420a4c28",
+            "Name": "?tick@BedBlockActor@@UEAAXAEAVBlockSource@@@Z"
+        },
+        {
+            "Address": "0x1420de9f9",
+            "Name": "?_desiredConnectionState@WallBlock@@AEBA?AW4WallConnectionType@@AEAVBlockSource@@AEBVBlockPos@@E@Z"
+        },
+        {
+            "Address": "0x1420df2b3",
+            "Name": "?_isCovered@WallBlock@@AEBA_NAEAVBlockSource@@AEBVBlockPos@@AEBVAABB@@@Z"
+        },
+        {
+            "Address": "0x1420e042c",
+            "Name": "?_shouldBePost@WallBlock@@AEBA_NAEAVBlockSource@@AEBVBlockPos@@AEBVBlock@@@Z"
+        },
+        {
+            "Address": "0x1420efaa0",
+            "Name": "?dispense@WoolCarpetBlock@@UEBA_NAEAVBlockSource@@AEAVContainer@@HAEBVVec3@@E@Z"
+        },
+        {
+            "Address": "0x1420efd68",
+            "Name": "?entityInside@TurtleEggBlock@@UEBAXAEAVBlockSource@@AEBVBlockPos@@AEAVActor@@@Z"
+        },
+        {
+            "Address": "0x1420f913d",
+            "Name": "??0PitcherCropBlock@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z"
+        },
+        {
+            "Address": "0x1420f9181",
+            "Name": "??0PitcherCropBlock@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z"
+        },
+        {
+            "Address": "0x142102ef6",
+            "Name": "?clip@ScaffoldingBlock@@UEBA?AVHitResult@@AEBVBlock@@AEBVBlockSource@@AEBVBlockPos@@AEBVVec3@@3W4ShapeType@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x1421041b1",
+            "Name": "?getCollisionShape@PitcherCropBlock@@UEBA?AVAABB@@AEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x14210445c",
+            "Name": "?getCollisionShape@PowderSnowBlock@@UEBA?AVAABB@@AEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x142104551",
+            "Name": "?getCollisionShape@PowderSnowBlock@@UEBA?AVAABB@@AEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x142104786",
+            "Name": "?getCollisionShape@ScaffoldingBlock@@UEBA?AVAABB@@AEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x14213b055",
+            "Name": "?_getWrappedBlockCollisionShapes@MovingBlockActor@@AEBA?AU?$pair@VAABB@@V1@@std@@AEBVIConstBlockSource@@@Z"
+        },
+        {
+            "Address": "0x14213c021",
+            "Name": "?_moveCollidedEntities@PistonBlockActor@@AEAAXAEAVBlockSource@@@Z"
+        },
+        {
+            "Address": "0x14215395b",
+            "Name": "?getCollisionShape@MovingBlockActor@@UEBA?AVAABB@@AEBVIConstBlockSource@@@Z"
+        },
+        {
+            "Address": "0x142154e67",
+            "Name": "?getObstructionAABB@ShulkerBoxBlockActor@@MEBA?AVAABB@@XZ"
+        },
+        {
+            "Address": "0x142154f2d",
+            "Name": "?getObstructionAABB@ShulkerBoxBlockActor@@MEBA?AVAABB@@XZ"
+        },
+        {
+            "Address": "0x14215b64a",
+            "Name": "?moveCollidedEntities@MovingBlockActor@@QEAAXAEAVPistonBlockActor@@AEAVBlockSource@@@Z"
+        },
+        {
+            "Address": "0x142162de9",
+            "Name": "?tick@PistonBlockActor@@UEAAXAEAVBlockSource@@@Z"
+        },
+        {
+            "Address": "0x1421631e7",
+            "Name": "?tick@PistonBlockActor@@UEAAXAEAVBlockSource@@@Z"
+        },
+        {
+            "Address": "0x14217436f",
+            "Name": "?getCollisionShape@SoulSandBlock@@UEBA?AVAABB@@AEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x14217461e",
+            "Name": "?getCollisionShape@TopSnowBlock@@UEBA?AVAABB@@AEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@V?$optional_ref@$$CBVGetCollisionShapeInterface@@@@@Z"
+        },
+        {
+            "Address": "0x1421747a7",
+            "Name": "?getCollisionShapeForCamera@TopSnowBlock@@UEBA_NAEAVAABB@@AEBVBlock@@AEBVIConstBlockSource@@AEBVBlockPos@@@Z"
+        },
+        {
+            "Address": "0x142176853",
+            "Name": "?getVisualShape@StemBlock@@UEBAAEBVAABB@@AEBVBlock@@AEAV2@@Z"
+        },
+        {
+            "Address": "0x142176c84",
+            "Name": "?getWorldAABB@SimpleBlockVolume@@QEBA?AVAABB@@XZ"
+        },
+        {
+            "Address": "0x142188091",
+            "Name": "?_fillEntityList@StructureTemplate@@AEAAXAEAVBlockSource@@AEBVBlockPos@@1@Z"
+        },
+        {
+            "Address": "0x1421bab8e",
+            "Name": "?_integrate@RopeSystem@@AEAAXXZ"
+        },
+        {
+            "Address": "0x1421bad08",
+            "Name": "?_integrate@RopeSystem@@AEAAXXZ"
+        },
+        {
+            "Address": "0x1421bb7d5",
+            "Name": "?_prepareAABBBuckets@RopeSystem@@AEAAXXZ"
+        }
+    ]
+}
