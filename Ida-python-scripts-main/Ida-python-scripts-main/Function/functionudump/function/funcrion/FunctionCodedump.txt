@@ -1,0 +1,24 @@
+AABB::AABB(Vec3 const &,Vec3 const &)	.text	0000000142033FC0	00000023	00000000		R	.	.	.	.	.	T	.
+AABB::AABB(Vec3 const &,float)	.text	0000000142033FF0	00000036	00000000		R	.	.	.	.	.	T	.
+AABB::AABB(float,float,float,float,float,float)	.text	0000000142034030	00000033	00000000	00000034	R	.	.	.	.	.	T	.
+AABBBucket::AABBBucket(void)	.text	0000000142034070	00000030	00000000		R	.	.	.	.	.	T	.
+AABB::operator==(AABB const &)	.text	0000000142035B90	00000046	00000000		R	.	.	.	.	.	.	.
+AABB::operator!=(AABB const &)	.text	0000000142035BE0	00000046	00000000		R	.	.	.	.	.	.	.
+AABB::axisInside(AABB const &,Vec3)	.text	0000000142043250	000000BC	00000000		R	.	.	.	.	.	T	.
+AABBBucket::clearDirty(void)	.text	00000001420441C0	0000000C	00000000		R	.	.	.	.	.	T	.
+AABBBucket::clearNeedsFinalize(void)	.text	00000001420441D0	00000005	00000000		R	.	.	.	.	.	T	.
+AABB::clip(Vec3 const &,Vec3 const &)	.text	00000001420441E0	00000A31	00000180	00000020	R	.	.	.	.	B	T	.
+AABB::clipCollide(AABB const &,Vec3 const &,bool,float *)	.text	0000000142044C20	00000078	00000068	00000030	R	.	.	.	.	.	T	.
+AABB::clipCollide(AABB const &,AABB const &,Vec3 const &)	.text	0000000142044CA0	000003FD	000000B8		R	.	.	.	.	.	T	.
+AABB::cloneAndExpandAlongDirection(Vec3 const &)	.text	00000001420450A0	000000CD	00000028		R	.	.	.	.	.	T	.
+AABB::cloneAndFloor(float,float)	.text	0000000142045170	00000076	00000058	00000010	R	.	.	.	.	.	T	.
+AABB::cloneAndFloorMinAndCeilingMax(void)	.text	00000001420451F0	00000066	00000048	00000010	R	.	.	.	.	.	.	.
+AABB::cloneAndShrink(Vec3 const &)	.text	0000000142045260	00000118	00000068		R	.	.	.	.	.	.	.
+AABB::cloneAndTransformByMatrix(Matrix const &)	.text	0000000142045380	0000026D	000000F8		R	.	.	.	.	.	.	.
+AABB::contains(AABB const &)	.text	00000001420455F0	00000079	00000000		R	.	.	.	.	.	T	.
+AABB::contains(Vec3 const &)	.text	0000000142045670	00000037	00000000		R	.	.	.	.	.	T	.
+AABB::distanceTo(AABB const &)	.text	000000014204BFB0	00000012	00000028		R	.	L	.	S	.	T	.
+AABB::distanceTo(Vec3 const &)	.text	000000014204BFD0	00000075	00000048		R	.	.	.	.	.	T	.
+AABB::distanceToSqr(AABB const &)	.text	000000014204C0A0	00000169	00000000	00000008	R	.	.	.	.	.	T	.
+AABB::getBounds(void)	.text	000000014204E680	0000002F	00000000		R	.	.	.	.	.	T	.
+AABB::getCenter(void)	.text	000000014204E700	00000051	00000000		R	.	.	.	.	.	T	.

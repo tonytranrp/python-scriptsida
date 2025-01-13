@@ -1,0 +1,10 @@
+#include <Loader/Symbols/SymbolResolver.hpp>
+
+//TODO: We absolutely need a better way to get this
+OFFSET_DIRECT("ClientInstance::mGuiData", 0x588);
+
+FUNCTION_PATTERN("ClientInstance::update", "48 89 5c 24 ? 48 89 74 24 ? 55 57 41 54 41 56 41 57 48 8d ac 24 ? ? ? ? 48 81 ec ? ? ? ? 48 8b 05 ? ? ? ? 48 33 c4 48 89 85 ? ? ? ? 44 0f b6 f2");
+
+// These are right next to eachother
+OFFSET_PATTERN_DWORD("ClientInstance::vtable::captureMouse", "48 8B ? ? ? ? ? EB ? 48 8B ? 48 8B ? ? ? ? ? 48 8B ? FF 15 ? ? ? ? 84 DB", 3);
+OFFSET_PATTERN_DWORD("ClientInstance::vtable::releaseMouse", "48 8B ? ? ? ? ? 48 8B ? FF 15 ? ? ? ? 84 DB 74", 3);
